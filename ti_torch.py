@@ -12,7 +12,6 @@ from torch.nn import functional as F
 from meters import AverageMeter
 import math
 import int_im2col_cuda
-import int8bmm_cuda
 import numpy as np
 
 # set CUDA_VISABLE_DEVICE when run the script to switch GPU
@@ -260,7 +259,7 @@ def parameter_decay(grad_int32acc, var):
     if decay_ratio >= 0:
         grad_int32acc.data += var.type(torch.int32)*(2**decay_ratio)
     else:
-        grad_int32acc.data += var.type(torch.int32)/(2**-decay_ratio)
+        grad_int32acc.data += var.type(torch.int32)//(2**-decay_ratio)
 
 class TiLinear(Module):
     '''
@@ -595,7 +594,7 @@ class TiConv2d(Module):
 class TiConv2d_acc23(Module):
     '''
     Use fp32 Conv2d to accelerate NITI framework.
-    The current naive implementation of NITI doesn't use Winograd, FFT transform 
+    The current naive implementation of NITI doesn't use Winograd, FFT transform
     or other GPU optimization to accelerate Conv2d,
      so it's slower than fp32 pytorch for now.
     The arithmetic still uses the same 8 bit integer.

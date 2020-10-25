@@ -7,7 +7,7 @@ setup(
         CUDAExtension('int_im2col_cuda',
                       ['int_im2col.cpp',
                        'int_im2col_kernel.cu'],
-                      include_dirs=['./'])
+                      include_dirs=['/niti/pytorch/int8im2col-extension'])
     ],
     cmdclass={
         'build_ext': BuildExtension

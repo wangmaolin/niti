@@ -204,7 +204,7 @@ class ResultsLog(object):
         for i, yi in enumerate(y):
             f.line(self.results[x], self.results[yi],
                    line_width=line_width,
-                   line_color=next(colors), legend=legend[i])
+                   line_color=next(colors), legend_label=legend[i])
         f.legend.click_policy = "hide"
         self.figures.append(f)
 
