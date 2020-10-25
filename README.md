@@ -35,8 +35,8 @@ Results of training int8 VGG13 and fp32 baseline. For other results, please chec
 ## Notes
 Our current implementation utilizes cuBLAS(10.1) to run int8 matrix multiply operations directly on tensor cores.
 However, there are no direct supports for int8 **batched** matrix multiply and 2D convolution even in the latest cuBLAS(11.0) and cuDNN(8.0).
-Our current implementation hasn't reached the full acceleration potential of the idea that trains neural networks with integer-only arithmetic.
-It only serves as a prototype for the idea now.
+So it hasn't reached the full acceleration potential of the idea that trains neural networks with integer-only arithmetic yet.
+For now, it only serves as a prototype for the idea.
 
 ## Some key codes
 ### ti_torch.py 
