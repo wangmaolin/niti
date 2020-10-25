@@ -11,5 +11,5 @@ DEPTH=11
 	-j 8\
 	--log-interval 50\
 	--weight-decay\
- 	--init /workspace/cifar10_vgg"$DEPTH"_rebalance_init.pth.tar\
+ 	--init /niti/cifar10_vgg"$DEPTH"_rebalance_init.pth.tar\
     --download\
