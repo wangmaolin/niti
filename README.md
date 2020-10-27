@@ -17,7 +17,7 @@ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.
 ### Step 3: Modify the path in docker_run.sh 
 Change NITI_PATH in docker_run.sh to the location where you download NITI.
 
-### Step 4: Launch the docker 
+### Step 4: Launch the docker at $NITI_PATH
 > docker_run.sh
 
 ### Step 5: Install the tensor core extension
@@ -45,5 +45,5 @@ Implementation of convolution, fully connected layer with int8 forward pass and 
 ### pytorch/tcint8mm-extension
 CUDA extension using tensor core to accelerate 8 bit signed integer matrix multiply
 
-### pytorch/tcint8mm-extension
+### pytorch/int8im2col-extension
 CUDA extension doing 8 bits integer image to column operation
