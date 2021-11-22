@@ -1,0 +1,1012 @@
+2021-11-22 04:09:12 - INFO - saving to ./results/int-vgg-small-8
+2021-11-22 04:09:12 - INFO - run arguments: Namespace(batch_size=256, data_dir='./cifar10', depth=8, epochs=200, init=None, log_interval=100, save='int-vgg-small-8', save_all=False, seed=-1, workers=8)
+2021-11-22 04:09:12 - INFO - ACT rounding: RoundShift
+2021-11-22 04:09:12 - INFO - ERROR rounding: RoundShift
+2021-11-22 04:09:12 - INFO - GRAD rounding: PstoShift
+2021-11-22 04:09:12 - INFO - Weight Init: UniformWeights
+2021-11-22 04:09:12 - INFO - random seed: None
+2021-11-22 04:09:12 - INFO - Create integer model
+2021-11-22 04:09:16 - INFO - training regime: [{'epoch': 0, 'gb': 5}, {'epoch': 100, 'gb': 4}, {'epoch': 150, 'gb': 3}]
+2021-11-22 04:09:18 - INFO - Change Grad Bitwidth to : 5
+2021-11-22 04:09:20 - INFO - [0][  0/196] Time 2.498 (2.498) Data 0.46 loss 2.389 (2.389) @1 12.891 (12.891) ETA 1 D 3.2 H
+2021-11-22 04:09:32 - INFO - [0][100/196] Time 0.118 (0.141) Data 0.00 loss 2.747 (2.423) @1 21.875 (17.872) ETA 0 D 1.5 H
+2021-11-22 04:09:45 - INFO - best_prec1: 33.800000 ./results/int-vgg-small-8
+2021-11-22 04:09:45 - INFO - Epoch: 0 Train Prec@1 21.622 Train Loss 2.296 Valid Prec@1 33.800 Valid Loss 1.830 
+
+2021-11-22 04:09:46 - INFO - [1][  0/196] Time 0.844 (0.844) Data 0.72 loss 1.874 (1.874) @1 30.859 (30.859) ETA 0 D 9.1 H
+2021-11-22 04:09:58 - INFO - [1][100/196] Time 0.119 (0.125) Data 0.00 loss 1.851 (1.946) @1 33.594 (30.720) ETA 0 D 1.4 H
+2021-11-22 04:10:12 - INFO - best_prec1: 42.600000 ./results/int-vgg-small-8
+2021-11-22 04:10:12 - INFO - Epoch: 1 Train Prec@1 32.410 Train Loss 1.895 Valid Prec@1 42.600 Valid Loss 1.615 
+
+2021-11-22 04:10:12 - INFO - [2][  0/196] Time 0.764 (0.764) Data 0.63 loss 1.684 (1.684) @1 42.188 (42.188) ETA 0 D 8.2 H
+2021-11-22 04:10:24 - INFO - [2][100/196] Time 0.118 (0.125) Data 0.00 loss 2.045 (1.747) @1 39.062 (38.134) ETA 0 D 1.3 H
+2021-11-22 04:10:38 - INFO - best_prec1: 43.550000 ./results/int-vgg-small-8
+2021-11-22 04:10:38 - INFO - Epoch: 2 Train Prec@1 39.524 Train Loss 1.708 Valid Prec@1 43.550 Valid Loss 1.564 
+
+2021-11-22 04:10:39 - INFO - [3][  0/196] Time 0.895 (0.895) Data 0.77 loss 1.518 (1.518) @1 44.141 (44.141) ETA 0 D 9.6 H
+2021-11-22 04:10:51 - INFO - [3][100/196] Time 0.117 (0.126) Data 0.00 loss 1.445 (1.578) @1 42.969 (43.603) ETA 0 D 1.3 H
+2021-11-22 04:11:04 - INFO - best_prec1: 54.520000 ./results/int-vgg-small-8
+2021-11-22 04:11:04 - INFO - Epoch: 3 Train Prec@1 45.102 Train Loss 1.551 Valid Prec@1 54.520 Valid Loss 1.289 
+
+2021-11-22 04:11:05 - INFO - [4][  0/196] Time 0.821 (0.821) Data 0.69 loss 1.334 (1.334) @1 51.953 (51.953) ETA 0 D 8.8 H
+2021-11-22 04:11:17 - INFO - [4][100/196] Time 0.119 (0.125) Data 0.00 loss 1.586 (1.443) @1 50.391 (49.331) ETA 0 D 1.3 H
+2021-11-22 04:11:30 - INFO - best_prec1: 57.090000 ./results/int-vgg-small-8
+2021-11-22 04:11:31 - INFO - Epoch: 4 Train Prec@1 50.540 Train Loss 1.421 Valid Prec@1 57.090 Valid Loss 1.247 
+
+2021-11-22 04:11:31 - INFO - [5][  0/196] Time 0.766 (0.766) Data 0.64 loss 1.293 (1.293) @1 53.125 (53.125) ETA 0 D 8.1 H
+2021-11-22 04:11:43 - INFO - [5][100/196] Time 0.117 (0.125) Data 0.00 loss 1.299 (1.314) @1 58.594 (54.243) ETA 0 D 1.3 H
+2021-11-22 04:11:57 - INFO - best_prec1: 59.220000 ./results/int-vgg-small-8
+2021-11-22 04:11:57 - INFO - Epoch: 5 Train Prec@1 55.230 Train Loss 1.285 Valid Prec@1 59.220 Valid Loss 1.224 
+
+2021-11-22 04:11:58 - INFO - [6][  0/196] Time 0.779 (0.779) Data 0.65 loss 1.134 (1.134) @1 59.766 (59.766) ETA 0 D 8.2 H
+2021-11-22 04:12:09 - INFO - [6][100/196] Time 0.118 (0.125) Data 0.00 loss 1.241 (1.208) @1 58.984 (58.861) ETA 0 D 1.3 H
+2021-11-22 04:12:23 - INFO - best_prec1: 62.610000 ./results/int-vgg-small-8
+2021-11-22 04:12:23 - INFO - Epoch: 6 Train Prec@1 59.506 Train Loss 1.179 Valid Prec@1 62.610 Valid Loss 1.110 
+
+2021-11-22 04:12:24 - INFO - [7][  0/196] Time 0.807 (0.807) Data 0.68 loss 1.121 (1.121) @1 56.250 (56.250) ETA 0 D 8.5 H
+2021-11-22 04:12:35 - INFO - [7][100/196] Time 0.118 (0.125) Data 0.00 loss 0.958 (1.102) @1 66.797 (62.194) ETA 0 D 1.3 H
+2021-11-22 04:12:49 - INFO - best_prec1: 63.750000 ./results/int-vgg-small-8
+2021-11-22 04:12:49 - INFO - Epoch: 7 Train Prec@1 62.504 Train Loss 1.104 Valid Prec@1 63.750 Valid Loss 1.113 
+
+2021-11-22 04:12:50 - INFO - [8][  0/196] Time 0.831 (0.831) Data 0.70 loss 1.141 (1.141) @1 59.375 (59.375) ETA 0 D 8.7 H
+2021-11-22 04:13:02 - INFO - [8][100/196] Time 0.118 (0.125) Data 0.00 loss 0.993 (1.031) @1 67.969 (64.554) ETA 0 D 1.3 H
+2021-11-22 04:13:15 - INFO - best_prec1: 71.580000 ./results/int-vgg-small-8
+2021-11-22 04:13:15 - INFO - Epoch: 8 Train Prec@1 65.018 Train Loss 1.020 Valid Prec@1 71.580 Valid Loss 0.877 
+
+2021-11-22 04:13:16 - INFO - [9][  0/196] Time 0.857 (0.857) Data 0.73 loss 0.991 (0.991) @1 67.188 (67.188) ETA 0 D 8.9 H
+2021-11-22 04:13:28 - INFO - [9][100/196] Time 0.118 (0.126) Data 0.00 loss 1.139 (0.976) @1 60.547 (66.313) ETA 0 D 1.3 H
+2021-11-22 04:13:41 - INFO - best_prec1: 71.580000 ./results/int-vgg-small-8
+2021-11-22 04:13:42 - INFO - Epoch: 9 Train Prec@1 67.012 Train Loss 0.959 Valid Prec@1 56.460 Valid Loss 1.214 
+
+2021-11-22 04:13:42 - INFO - [10][  0/196] Time 0.790 (0.790) Data 0.66 loss 1.361 (1.361) @1 50.000 (50.000) ETA 0 D 8.2 H
+2021-11-22 04:13:54 - INFO - [10][100/196] Time 0.118 (0.125) Data 0.00 loss 0.760 (0.931) @1 75.781 (68.479) ETA 0 D 1.3 H
+2021-11-22 04:14:08 - INFO - best_prec1: 71.580000 ./results/int-vgg-small-8
+2021-11-22 04:14:08 - INFO - Epoch: 10 Train Prec@1 68.754 Train Loss 0.916 Valid Prec@1 70.360 Valid Loss 0.878 
+
+2021-11-22 04:14:08 - INFO - [11][  0/196] Time 0.751 (0.751) Data 0.62 loss 0.877 (0.877) @1 70.703 (70.703) ETA 0 D 7.7 H
+2021-11-22 04:14:20 - INFO - [11][100/196] Time 0.118 (0.124) Data 0.00 loss 0.838 (0.856) @1 72.656 (70.881) ETA 0 D 1.3 H
+2021-11-22 04:14:34 - INFO - best_prec1: 75.100000 ./results/int-vgg-small-8
+2021-11-22 04:14:34 - INFO - Epoch: 11 Train Prec@1 70.496 Train Loss 0.867 Valid Prec@1 75.100 Valid Loss 0.735 
+
+2021-11-22 04:14:35 - INFO - [12][  0/196] Time 0.791 (0.791) Data 0.66 loss 0.746 (0.746) @1 74.609 (74.609) ETA 0 D 8.1 H
+2021-11-22 04:14:46 - INFO - [12][100/196] Time 0.117 (0.125) Data 0.00 loss 0.675 (0.848) @1 80.078 (71.306) ETA 0 D 1.3 H
+2021-11-22 04:15:00 - INFO - best_prec1: 75.100000 ./results/int-vgg-small-8
+2021-11-22 04:15:00 - INFO - Epoch: 12 Train Prec@1 71.736 Train Loss 0.836 Valid Prec@1 72.100 Valid Loss 0.854 
+
+2021-11-22 04:15:01 - INFO - [13][  0/196] Time 0.831 (0.831) Data 0.71 loss 0.905 (0.905) @1 70.703 (70.703) ETA 0 D 8.5 H
+2021-11-22 04:15:13 - INFO - [13][100/196] Time 0.117 (0.125) Data 0.00 loss 1.017 (0.803) @1 65.234 (73.016) ETA 0 D 1.3 H
+2021-11-22 04:15:26 - INFO - best_prec1: 75.920000 ./results/int-vgg-small-8
+2021-11-22 04:15:26 - INFO - Epoch: 13 Train Prec@1 73.222 Train Loss 0.795 Valid Prec@1 75.920 Valid Loss 0.720 
+
+2021-11-22 04:15:27 - INFO - [14][  0/196] Time 0.799 (0.799) Data 0.67 loss 0.671 (0.671) @1 79.688 (79.688) ETA 0 D 8.1 H
+2021-11-22 04:15:39 - INFO - [14][100/196] Time 0.117 (0.125) Data 0.00 loss 0.705 (0.755) @1 79.297 (74.366) ETA 0 D 1.3 H
+2021-11-22 04:15:52 - INFO - best_prec1: 76.590000 ./results/int-vgg-small-8
+2021-11-22 04:15:52 - INFO - Epoch: 14 Train Prec@1 74.584 Train Loss 0.750 Valid Prec@1 76.590 Valid Loss 0.679 
+
+2021-11-22 04:15:53 - INFO - [15][  0/196] Time 0.748 (0.748) Data 0.62 loss 0.685 (0.685) @1 76.953 (76.953) ETA 0 D 7.5 H
+2021-11-22 04:16:05 - INFO - [15][100/196] Time 0.119 (0.124) Data 0.00 loss 0.679 (0.736) @1 77.734 (75.162) ETA 0 D 1.2 H
+2021-11-22 04:16:18 - INFO - best_prec1: 77.540000 ./results/int-vgg-small-8
+2021-11-22 04:16:18 - INFO - Epoch: 15 Train Prec@1 75.356 Train Loss 0.730 Valid Prec@1 77.540 Valid Loss 0.703 
+
+2021-11-22 04:16:19 - INFO - [16][  0/196] Time 0.799 (0.799) Data 0.67 loss 0.758 (0.758) @1 78.125 (78.125) ETA 0 D 8.0 H
+2021-11-22 04:16:31 - INFO - [16][100/196] Time 0.120 (0.126) Data 0.00 loss 0.530 (0.698) @1 79.297 (76.388) ETA 0 D 1.3 H
+2021-11-22 04:16:44 - INFO - best_prec1: 78.930000 ./results/int-vgg-small-8
+2021-11-22 04:16:45 - INFO - Epoch: 16 Train Prec@1 76.218 Train Loss 0.701 Valid Prec@1 78.930 Valid Loss 0.641 
+
+2021-11-22 04:16:45 - INFO - [17][  0/196] Time 0.796 (0.796) Data 0.67 loss 0.537 (0.537) @1 84.766 (84.766) ETA 0 D 7.9 H
+2021-11-22 04:16:57 - INFO - [17][100/196] Time 0.119 (0.125) Data 0.00 loss 0.666 (0.687) @1 76.953 (76.431) ETA 0 D 1.2 H
+2021-11-22 04:17:11 - INFO - best_prec1: 78.930000 ./results/int-vgg-small-8
+2021-11-22 04:17:11 - INFO - Epoch: 17 Train Prec@1 76.604 Train Loss 0.688 Valid Prec@1 74.280 Valid Loss 0.797 
+
+2021-11-22 04:17:12 - INFO - [18][  0/196] Time 0.818 (0.818) Data 0.69 loss 0.762 (0.762) @1 70.703 (70.703) ETA 0 D 8.1 H
+2021-11-22 04:17:23 - INFO - [18][100/196] Time 0.116 (0.125) Data 0.00 loss 0.619 (0.662) @1 77.734 (78.055) ETA 0 D 1.2 H
+2021-11-22 04:17:37 - INFO - best_prec1: 79.570000 ./results/int-vgg-small-8
+2021-11-22 04:17:37 - INFO - Epoch: 18 Train Prec@1 77.610 Train Loss 0.669 Valid Prec@1 79.570 Valid Loss 0.631 
+
+2021-11-22 04:17:38 - INFO - [19][  0/196] Time 0.755 (0.755) Data 0.62 loss 0.621 (0.621) @1 78.516 (78.516) ETA 0 D 7.4 H
+2021-11-22 04:17:49 - INFO - [19][100/196] Time 0.119 (0.125) Data 0.00 loss 0.853 (0.650) @1 74.609 (78.256) ETA 0 D 1.2 H
+2021-11-22 04:18:03 - INFO - best_prec1: 79.570000 ./results/int-vgg-small-8
+2021-11-22 04:18:03 - INFO - Epoch: 19 Train Prec@1 78.386 Train Loss 0.644 Valid Prec@1 79.490 Valid Loss 0.622 
+
+2021-11-22 04:18:04 - INFO - [20][  0/196] Time 0.695 (0.695) Data 0.57 loss 0.562 (0.562) @1 81.641 (81.641) ETA 0 D 6.8 H
+2021-11-22 04:18:16 - INFO - [20][100/196] Time 0.118 (0.124) Data 0.00 loss 0.537 (0.633) @1 79.688 (78.686) ETA 0 D 1.2 H
+2021-11-22 04:18:29 - INFO - best_prec1: 80.860000 ./results/int-vgg-small-8
+2021-11-22 04:18:29 - INFO - Epoch: 20 Train Prec@1 79.110 Train Loss 0.620 Valid Prec@1 80.860 Valid Loss 0.587 
+
+2021-11-22 04:18:30 - INFO - [21][  0/196] Time 0.803 (0.803) Data 0.68 loss 0.643 (0.643) @1 79.688 (79.688) ETA 0 D 7.8 H
+2021-11-22 04:18:42 - INFO - [21][100/196] Time 0.118 (0.125) Data 0.00 loss 0.571 (0.593) @1 78.906 (80.086) ETA 0 D 1.2 H
+2021-11-22 04:18:55 - INFO - best_prec1: 80.860000 ./results/int-vgg-small-8
+2021-11-22 04:18:55 - INFO - Epoch: 21 Train Prec@1 79.790 Train Loss 0.600 Valid Prec@1 80.570 Valid Loss 0.616 
+
+2021-11-22 04:18:56 - INFO - [22][  0/196] Time 0.874 (0.874) Data 0.74 loss 0.525 (0.525) @1 80.469 (80.469) ETA 0 D 8.5 H
+2021-11-22 04:19:08 - INFO - [22][100/196] Time 0.117 (0.125) Data 0.00 loss 0.661 (0.591) @1 79.688 (80.074) ETA 0 D 1.2 H
+2021-11-22 04:19:22 - INFO - best_prec1: 80.860000 ./results/int-vgg-small-8
+2021-11-22 04:19:22 - INFO - Epoch: 22 Train Prec@1 80.232 Train Loss 0.592 Valid Prec@1 80.150 Valid Loss 0.607 
+
+2021-11-22 04:19:22 - INFO - [23][  0/196] Time 0.801 (0.801) Data 0.68 loss 0.621 (0.621) @1 78.516 (78.516) ETA 0 D 7.7 H
+2021-11-22 04:19:34 - INFO - [23][100/196] Time 0.118 (0.125) Data 0.00 loss 0.530 (0.568) @1 83.984 (80.724) ETA 0 D 1.2 H
+2021-11-22 04:19:48 - INFO - best_prec1: 80.860000 ./results/int-vgg-small-8
+2021-11-22 04:19:48 - INFO - Epoch: 23 Train Prec@1 80.818 Train Loss 0.571 Valid Prec@1 79.980 Valid Loss 0.622 
+
+2021-11-22 04:19:48 - INFO - [24][  0/196] Time 0.789 (0.789) Data 0.66 loss 0.428 (0.428) @1 86.328 (86.328) ETA 0 D 7.6 H
+2021-11-22 04:20:00 - INFO - [24][100/196] Time 0.119 (0.125) Data 0.00 loss 0.646 (0.554) @1 83.594 (81.606) ETA 0 D 1.2 H
+2021-11-22 04:20:14 - INFO - best_prec1: 81.020000 ./results/int-vgg-small-8
+2021-11-22 04:20:14 - INFO - Epoch: 24 Train Prec@1 81.466 Train Loss 0.555 Valid Prec@1 81.020 Valid Loss 0.579 
+
+2021-11-22 04:20:15 - INFO - [25][  0/196] Time 0.781 (0.781) Data 0.65 loss 0.532 (0.532) @1 84.766 (84.766) ETA 0 D 7.4 H
+2021-11-22 04:20:27 - INFO - [25][100/196] Time 0.122 (0.125) Data 0.00 loss 0.546 (0.545) @1 83.594 (81.486) ETA 0 D 1.2 H
+2021-11-22 04:20:40 - INFO - best_prec1: 81.020000 ./results/int-vgg-small-8
+2021-11-22 04:20:40 - INFO - Epoch: 25 Train Prec@1 81.660 Train Loss 0.542 Valid Prec@1 78.800 Valid Loss 0.682 
+
+2021-11-22 04:20:41 - INFO - [26][  0/196] Time 0.820 (0.820) Data 0.70 loss 0.486 (0.486) @1 83.984 (83.984) ETA 0 D 7.8 H
+2021-11-22 04:20:53 - INFO - [26][100/196] Time 0.118 (0.125) Data 0.00 loss 0.486 (0.520) @1 84.766 (82.372) ETA 0 D 1.2 H
+2021-11-22 04:21:06 - INFO - best_prec1: 81.020000 ./results/int-vgg-small-8
+2021-11-22 04:21:06 - INFO - Epoch: 26 Train Prec@1 82.160 Train Loss 0.527 Valid Prec@1 80.210 Valid Loss 0.595 
+
+2021-11-22 04:21:07 - INFO - [27][  0/196] Time 0.822 (0.822) Data 0.69 loss 0.684 (0.684) @1 75.781 (75.781) ETA 0 D 7.7 H
+2021-11-22 04:21:19 - INFO - [27][100/196] Time 0.116 (0.125) Data 0.00 loss 0.531 (0.529) @1 82.031 (82.070) ETA 0 D 1.2 H
+2021-11-22 04:21:32 - INFO - best_prec1: 83.340000 ./results/int-vgg-small-8
+2021-11-22 04:21:33 - INFO - Epoch: 27 Train Prec@1 82.120 Train Loss 0.528 Valid Prec@1 83.340 Valid Loss 0.529 
+
+2021-11-22 04:21:33 - INFO - [28][  0/196] Time 0.822 (0.822) Data 0.69 loss 0.433 (0.433) @1 86.719 (86.719) ETA 0 D 7.7 H
+2021-11-22 04:21:45 - INFO - [28][100/196] Time 0.118 (0.126) Data 0.00 loss 0.487 (0.506) @1 83.984 (83.157) ETA 0 D 1.2 H
+2021-11-22 04:21:59 - INFO - best_prec1: 83.340000 ./results/int-vgg-small-8
+2021-11-22 04:21:59 - INFO - Epoch: 28 Train Prec@1 82.976 Train Loss 0.511 Valid Prec@1 79.180 Valid Loss 0.645 
+
+2021-11-22 04:22:00 - INFO - [29][  0/196] Time 0.783 (0.783) Data 0.66 loss 0.567 (0.567) @1 80.469 (80.469) ETA 0 D 7.3 H
+2021-11-22 04:22:11 - INFO - [29][100/196] Time 0.116 (0.125) Data 0.00 loss 0.450 (0.502) @1 85.156 (83.025) ETA 0 D 1.2 H
+2021-11-22 04:22:25 - INFO - best_prec1: 83.350000 ./results/int-vgg-small-8
+2021-11-22 04:22:25 - INFO - Epoch: 29 Train Prec@1 82.936 Train Loss 0.505 Valid Prec@1 83.350 Valid Loss 0.513 
+
+2021-11-22 04:22:26 - INFO - [30][  0/196] Time 0.824 (0.824) Data 0.70 loss 0.351 (0.351) @1 87.500 (87.500) ETA 0 D 7.6 H
+2021-11-22 04:22:38 - INFO - [30][100/196] Time 0.118 (0.125) Data 0.00 loss 0.447 (0.482) @1 84.766 (83.795) ETA 0 D 1.2 H
+2021-11-22 04:22:51 - INFO - best_prec1: 83.350000 ./results/int-vgg-small-8
+2021-11-22 04:22:51 - INFO - Epoch: 30 Train Prec@1 83.770 Train Loss 0.484 Valid Prec@1 82.910 Valid Loss 0.523 
+
+2021-11-22 04:22:52 - INFO - [31][  0/196] Time 0.818 (0.818) Data 0.70 loss 0.467 (0.467) @1 86.719 (86.719) ETA 0 D 7.5 H
+2021-11-22 04:23:04 - INFO - [31][100/196] Time 0.118 (0.125) Data 0.00 loss 0.402 (0.475) @1 86.328 (83.961) ETA 0 D 1.2 H
+2021-11-22 04:23:17 - INFO - best_prec1: 84.220000 ./results/int-vgg-small-8
+2021-11-22 04:23:17 - INFO - Epoch: 31 Train Prec@1 83.852 Train Loss 0.482 Valid Prec@1 84.220 Valid Loss 0.481 
+
+2021-11-22 04:23:18 - INFO - [32][  0/196] Time 0.677 (0.677) Data 0.55 loss 0.443 (0.443) @1 85.547 (85.547) ETA 0 D 6.2 H
+2021-11-22 04:23:30 - INFO - [32][100/196] Time 0.118 (0.123) Data 0.00 loss 0.466 (0.479) @1 85.156 (83.926) ETA 0 D 1.1 H
+2021-11-22 04:23:43 - INFO - best_prec1: 84.220000 ./results/int-vgg-small-8
+2021-11-22 04:23:43 - INFO - Epoch: 32 Train Prec@1 84.156 Train Loss 0.472 Valid Prec@1 83.270 Valid Loss 0.500 
+
+2021-11-22 04:23:44 - INFO - [33][  0/196] Time 0.796 (0.796) Data 0.67 loss 0.478 (0.478) @1 83.984 (83.984) ETA 0 D 7.2 H
+2021-11-22 04:23:56 - INFO - [33][100/196] Time 0.117 (0.124) Data 0.00 loss 0.494 (0.453) @1 84.375 (84.708) ETA 0 D 1.1 H
+2021-11-22 04:24:09 - INFO - best_prec1: 85.500000 ./results/int-vgg-small-8
+2021-11-22 04:24:10 - INFO - Epoch: 33 Train Prec@1 84.690 Train Loss 0.452 Valid Prec@1 85.500 Valid Loss 0.445 
+
+2021-11-22 04:24:10 - INFO - [34][  0/196] Time 0.662 (0.662) Data 0.54 loss 0.430 (0.430) @1 86.719 (86.719) ETA 0 D 6.0 H
+2021-11-22 04:24:22 - INFO - [34][100/196] Time 0.117 (0.124) Data 0.00 loss 0.447 (0.437) @1 85.156 (85.582) ETA 0 D 1.1 H
+2021-11-22 04:24:36 - INFO - best_prec1: 85.500000 ./results/int-vgg-small-8
+2021-11-22 04:24:36 - INFO - Epoch: 34 Train Prec@1 84.946 Train Loss 0.445 Valid Prec@1 81.740 Valid Loss 0.551 
+
+2021-11-22 04:24:37 - INFO - [35][  0/196] Time 0.847 (0.847) Data 0.72 loss 0.446 (0.446) @1 86.328 (86.328) ETA 0 D 7.6 H
+2021-11-22 04:24:48 - INFO - [35][100/196] Time 0.120 (0.126) Data 0.00 loss 0.478 (0.429) @1 83.984 (85.288) ETA 0 D 1.1 H
+2021-11-22 04:25:02 - INFO - best_prec1: 85.500000 ./results/int-vgg-small-8
+2021-11-22 04:25:02 - INFO - Epoch: 35 Train Prec@1 85.296 Train Loss 0.434 Valid Prec@1 82.800 Valid Loss 0.551 
+
+2021-11-22 04:25:03 - INFO - [36][  0/196] Time 0.812 (0.812) Data 0.68 loss 0.428 (0.428) @1 86.719 (86.719) ETA 0 D 7.3 H
+2021-11-22 04:25:15 - INFO - [36][100/196] Time 0.117 (0.126) Data 0.00 loss 0.376 (0.434) @1 87.109 (85.415) ETA 0 D 1.1 H
+2021-11-22 04:25:28 - INFO - best_prec1: 85.500000 ./results/int-vgg-small-8
+2021-11-22 04:25:29 - INFO - Epoch: 36 Train Prec@1 85.420 Train Loss 0.432 Valid Prec@1 83.970 Valid Loss 0.512 
+
+2021-11-22 04:25:29 - INFO - [37][  0/196] Time 0.824 (0.824) Data 0.70 loss 0.489 (0.489) @1 83.203 (83.203) ETA 0 D 7.3 H
+2021-11-22 04:25:41 - INFO - [37][100/196] Time 0.117 (0.124) Data 0.00 loss 0.430 (0.433) @1 86.719 (85.473) ETA 0 D 1.1 H
+2021-11-22 04:25:55 - INFO - best_prec1: 85.500000 ./results/int-vgg-small-8
+2021-11-22 04:25:55 - INFO - Epoch: 37 Train Prec@1 85.670 Train Loss 0.429 Valid Prec@1 81.250 Valid Loss 0.620 
+
+2021-11-22 04:25:55 - INFO - [38][  0/196] Time 0.793 (0.793) Data 0.67 loss 0.446 (0.446) @1 87.109 (87.109) ETA 0 D 7.0 H
+2021-11-22 04:26:07 - INFO - [38][100/196] Time 0.117 (0.124) Data 0.00 loss 0.418 (0.419) @1 85.547 (85.922) ETA 0 D 1.1 H
+2021-11-22 04:26:21 - INFO - best_prec1: 85.500000 ./results/int-vgg-small-8
+2021-11-22 04:26:21 - INFO - Epoch: 38 Train Prec@1 85.714 Train Loss 0.426 Valid Prec@1 84.440 Valid Loss 0.482 
+
+2021-11-22 04:26:21 - INFO - [39][  0/196] Time 0.661 (0.661) Data 0.54 loss 0.316 (0.316) @1 89.062 (89.062) ETA 0 D 5.8 H
+2021-11-22 04:26:33 - INFO - [39][100/196] Time 0.119 (0.124) Data 0.00 loss 0.355 (0.417) @1 87.500 (86.054) ETA 0 D 1.1 H
+2021-11-22 04:26:46 - INFO - best_prec1: 85.500000 ./results/int-vgg-small-8
+2021-11-22 04:26:47 - INFO - Epoch: 39 Train Prec@1 86.272 Train Loss 0.409 Valid Prec@1 85.500 Valid Loss 0.461 
+
+2021-11-22 04:26:47 - INFO - [40][  0/196] Time 0.803 (0.803) Data 0.68 loss 0.302 (0.302) @1 89.453 (89.453) ETA 0 D 7.0 H
+2021-11-22 04:26:59 - INFO - [40][100/196] Time 0.117 (0.124) Data 0.00 loss 0.371 (0.398) @1 86.328 (86.522) ETA 0 D 1.1 H
+2021-11-22 04:27:13 - INFO - best_prec1: 85.500000 ./results/int-vgg-small-8
+2021-11-22 04:27:13 - INFO - Epoch: 40 Train Prec@1 86.302 Train Loss 0.405 Valid Prec@1 85.230 Valid Loss 0.467 
+
+2021-11-22 04:27:14 - INFO - [41][  0/196] Time 0.830 (0.830) Data 0.70 loss 0.313 (0.313) @1 89.453 (89.453) ETA 0 D 7.2 H
+2021-11-22 04:27:25 - INFO - [41][100/196] Time 0.118 (0.125) Data 0.00 loss 0.417 (0.384) @1 84.766 (86.831) ETA 0 D 1.1 H
+2021-11-22 04:27:39 - INFO - best_prec1: 85.500000 ./results/int-vgg-small-8
+2021-11-22 04:27:39 - INFO - Epoch: 41 Train Prec@1 86.524 Train Loss 0.396 Valid Prec@1 85.430 Valid Loss 0.457 
+
+2021-11-22 04:27:40 - INFO - [42][  0/196] Time 0.797 (0.797) Data 0.67 loss 0.449 (0.449) @1 85.938 (85.938) ETA 0 D 6.9 H
+2021-11-22 04:27:52 - INFO - [42][100/196] Time 0.119 (0.125) Data 0.00 loss 0.302 (0.386) @1 88.672 (87.036) ETA 0 D 1.1 H
+2021-11-22 04:28:05 - INFO - best_prec1: 85.500000 ./results/int-vgg-small-8
+2021-11-22 04:28:05 - INFO - Epoch: 42 Train Prec@1 86.862 Train Loss 0.392 Valid Prec@1 84.940 Valid Loss 0.473 
+
+2021-11-22 04:28:06 - INFO - [43][  0/196] Time 0.792 (0.792) Data 0.66 loss 0.474 (0.474) @1 82.812 (82.812) ETA 0 D 6.8 H
+2021-11-22 04:28:18 - INFO - [43][100/196] Time 0.120 (0.125) Data 0.00 loss 0.294 (0.391) @1 88.672 (86.831) ETA 0 D 1.1 H
+2021-11-22 04:28:31 - INFO - best_prec1: 85.500000 ./results/int-vgg-small-8
+2021-11-22 04:28:31 - INFO - Epoch: 43 Train Prec@1 87.118 Train Loss 0.384 Valid Prec@1 84.720 Valid Loss 0.477 
+
+2021-11-22 04:28:32 - INFO - [44][  0/196] Time 0.807 (0.807) Data 0.68 loss 0.386 (0.386) @1 86.719 (86.719) ETA 0 D 6.8 H
+2021-11-22 04:28:44 - INFO - [44][100/196] Time 0.116 (0.124) Data 0.00 loss 0.350 (0.383) @1 86.719 (86.982) ETA 0 D 1.1 H
+2021-11-22 04:28:57 - INFO - best_prec1: 85.500000 ./results/int-vgg-small-8
+2021-11-22 04:28:57 - INFO - Epoch: 44 Train Prec@1 87.028 Train Loss 0.383 Valid Prec@1 82.910 Valid Loss 0.571 
+
+2021-11-22 04:28:58 - INFO - [45][  0/196] Time 0.793 (0.793) Data 0.67 loss 0.427 (0.427) @1 85.938 (85.938) ETA 0 D 6.7 H
+2021-11-22 04:29:10 - INFO - [45][100/196] Time 0.118 (0.125) Data 0.00 loss 0.252 (0.361) @1 93.359 (87.790) ETA 0 D 1.0 H
+2021-11-22 04:29:23 - INFO - best_prec1: 85.820000 ./results/int-vgg-small-8
+2021-11-22 04:29:23 - INFO - Epoch: 45 Train Prec@1 87.524 Train Loss 0.369 Valid Prec@1 85.820 Valid Loss 0.442 
+
+2021-11-22 04:29:24 - INFO - [46][  0/196] Time 0.824 (0.824) Data 0.69 loss 0.303 (0.303) @1 89.844 (89.844) ETA 0 D 6.9 H
+2021-11-22 04:29:36 - INFO - [46][100/196] Time 0.117 (0.124) Data 0.00 loss 0.395 (0.365) @1 87.500 (87.566) ETA 0 D 1.0 H
+2021-11-22 04:29:49 - INFO - best_prec1: 85.820000 ./results/int-vgg-small-8
+2021-11-22 04:29:49 - INFO - Epoch: 46 Train Prec@1 87.184 Train Loss 0.377 Valid Prec@1 83.910 Valid Loss 0.510 
+
+2021-11-22 04:29:50 - INFO - [47][  0/196] Time 0.821 (0.821) Data 0.69 loss 0.396 (0.396) @1 89.453 (89.453) ETA 0 D 6.8 H
+2021-11-22 04:30:02 - INFO - [47][100/196] Time 0.116 (0.124) Data 0.00 loss 0.432 (0.358) @1 84.375 (87.925) ETA 0 D 1.0 H
+2021-11-22 04:30:15 - INFO - best_prec1: 86.230000 ./results/int-vgg-small-8
+2021-11-22 04:30:15 - INFO - Epoch: 47 Train Prec@1 87.520 Train Loss 0.367 Valid Prec@1 86.230 Valid Loss 0.428 
+
+2021-11-22 04:30:16 - INFO - [48][  0/196] Time 0.789 (0.789) Data 0.66 loss 0.292 (0.292) @1 89.844 (89.844) ETA 0 D 6.5 H
+2021-11-22 04:30:28 - INFO - [48][100/196] Time 0.117 (0.124) Data 0.00 loss 0.455 (0.345) @1 87.500 (88.382) ETA 0 D 1.0 H
+2021-11-22 04:30:41 - INFO - best_prec1: 86.230000 ./results/int-vgg-small-8
+2021-11-22 04:30:42 - INFO - Epoch: 48 Train Prec@1 88.096 Train Loss 0.355 Valid Prec@1 84.730 Valid Loss 0.490 
+
+2021-11-22 04:30:42 - INFO - [49][  0/196] Time 0.795 (0.795) Data 0.67 loss 0.402 (0.402) @1 87.891 (87.891) ETA 0 D 6.5 H
+2021-11-22 04:30:54 - INFO - [49][100/196] Time 0.119 (0.124) Data 0.00 loss 0.416 (0.350) @1 85.938 (88.243) ETA 0 D 1.0 H
+2021-11-22 04:31:08 - INFO - best_prec1: 86.230000 ./results/int-vgg-small-8
+2021-11-22 04:31:08 - INFO - Epoch: 49 Train Prec@1 88.120 Train Loss 0.355 Valid Prec@1 84.520 Valid Loss 0.526 
+
+2021-11-22 04:31:09 - INFO - [50][  0/196] Time 0.871 (0.871) Data 0.74 loss 0.508 (0.508) @1 82.422 (82.422) ETA 0 D 7.1 H
+2021-11-22 04:31:20 - INFO - [50][100/196] Time 0.117 (0.125) Data 0.00 loss 0.314 (0.348) @1 91.406 (88.099) ETA 0 D 1.0 H
+2021-11-22 04:31:34 - INFO - best_prec1: 86.230000 ./results/int-vgg-small-8
+2021-11-22 04:31:34 - INFO - Epoch: 50 Train Prec@1 88.220 Train Loss 0.347 Valid Prec@1 83.470 Valid Loss 0.493 
+
+2021-11-22 04:31:35 - INFO - [51][  0/196] Time 0.815 (0.815) Data 0.68 loss 0.322 (0.322) @1 89.062 (89.062) ETA 0 D 6.6 H
+2021-11-22 04:31:46 - INFO - [51][100/196] Time 0.116 (0.124) Data 0.00 loss 0.333 (0.348) @1 89.062 (88.320) ETA 0 D 1.0 H
+2021-11-22 04:32:00 - INFO - best_prec1: 86.230000 ./results/int-vgg-small-8
+2021-11-22 04:32:00 - INFO - Epoch: 51 Train Prec@1 88.164 Train Loss 0.350 Valid Prec@1 79.010 Valid Loss 0.663 
+
+2021-11-22 04:32:01 - INFO - [52][  0/196] Time 0.792 (0.792) Data 0.66 loss 0.450 (0.450) @1 86.328 (86.328) ETA 0 D 6.4 H
+2021-11-22 04:32:12 - INFO - [52][100/196] Time 0.117 (0.125) Data 0.00 loss 0.333 (0.339) @1 88.281 (88.451) ETA 0 D 1.0 H
+2021-11-22 04:32:26 - INFO - best_prec1: 86.420000 ./results/int-vgg-small-8
+2021-11-22 04:32:26 - INFO - Epoch: 52 Train Prec@1 88.278 Train Loss 0.344 Valid Prec@1 86.420 Valid Loss 0.420 
+
+2021-11-22 04:32:27 - INFO - [53][  0/196] Time 0.832 (0.832) Data 0.71 loss 0.357 (0.357) @1 87.500 (87.500) ETA 0 D 6.7 H
+2021-11-22 04:32:39 - INFO - [53][100/196] Time 0.117 (0.125) Data 0.00 loss 0.371 (0.325) @1 88.281 (88.854) ETA 0 D 1.0 H
+2021-11-22 04:32:52 - INFO - best_prec1: 86.420000 ./results/int-vgg-small-8
+2021-11-22 04:32:52 - INFO - Epoch: 53 Train Prec@1 88.584 Train Loss 0.337 Valid Prec@1 85.420 Valid Loss 0.445 
+
+2021-11-22 04:32:53 - INFO - [54][  0/196] Time 0.796 (0.796) Data 0.66 loss 0.333 (0.333) @1 88.281 (88.281) ETA 0 D 6.3 H
+2021-11-22 04:33:05 - INFO - [54][100/196] Time 0.118 (0.124) Data 0.00 loss 0.303 (0.333) @1 91.797 (88.587) ETA 0 D 1.0 H
+2021-11-22 04:33:18 - INFO - best_prec1: 86.540000 ./results/int-vgg-small-8
+2021-11-22 04:33:18 - INFO - Epoch: 54 Train Prec@1 88.438 Train Loss 0.338 Valid Prec@1 86.540 Valid Loss 0.412 
+
+2021-11-22 04:33:19 - INFO - [55][  0/196] Time 0.844 (0.844) Data 0.71 loss 0.301 (0.301) @1 91.016 (91.016) ETA 0 D 6.7 H
+2021-11-22 04:33:31 - INFO - [55][100/196] Time 0.117 (0.124) Data 0.00 loss 0.311 (0.335) @1 86.719 (88.796) ETA 0 D 1.0 H
+2021-11-22 04:33:44 - INFO - best_prec1: 86.540000 ./results/int-vgg-small-8
+2021-11-22 04:33:44 - INFO - Epoch: 55 Train Prec@1 88.650 Train Loss 0.336 Valid Prec@1 86.040 Valid Loss 0.484 
+
+2021-11-22 04:33:45 - INFO - [56][  0/196] Time 0.795 (0.795) Data 0.67 loss 0.255 (0.255) @1 92.188 (92.188) ETA 0 D 6.2 H
+2021-11-22 04:33:57 - INFO - [56][100/196] Time 0.119 (0.125) Data 0.00 loss 0.291 (0.335) @1 89.062 (88.676) ETA 0 D 1.0 H
+2021-11-22 04:34:11 - INFO - best_prec1: 86.540000 ./results/int-vgg-small-8
+2021-11-22 04:34:11 - INFO - Epoch: 56 Train Prec@1 88.852 Train Loss 0.332 Valid Prec@1 85.420 Valid Loss 0.474 
+
+2021-11-22 04:34:11 - INFO - [57][  0/196] Time 0.916 (0.916) Data 0.79 loss 0.276 (0.276) @1 90.625 (90.625) ETA 0 D 7.1 H
+2021-11-22 04:34:23 - INFO - [57][100/196] Time 0.118 (0.126) Data 0.00 loss 0.328 (0.318) @1 88.672 (89.194) ETA 0 D 1.0 H
+2021-11-22 04:34:37 - INFO - best_prec1: 87.420000 ./results/int-vgg-small-8
+2021-11-22 04:34:37 - INFO - Epoch: 57 Train Prec@1 89.104 Train Loss 0.322 Valid Prec@1 87.420 Valid Loss 0.388 
+
+2021-11-22 04:34:38 - INFO - [58][  0/196] Time 0.800 (0.800) Data 0.67 loss 0.287 (0.287) @1 90.234 (90.234) ETA 0 D 6.2 H
+2021-11-22 04:34:49 - INFO - [58][100/196] Time 0.117 (0.125) Data 0.00 loss 0.339 (0.323) @1 86.328 (88.946) ETA 0 D 1.0 H
+2021-11-22 04:35:03 - INFO - best_prec1: 87.420000 ./results/int-vgg-small-8
+2021-11-22 04:35:03 - INFO - Epoch: 58 Train Prec@1 88.826 Train Loss 0.326 Valid Prec@1 86.900 Valid Loss 0.409 
+
+2021-11-22 04:35:04 - INFO - [59][  0/196] Time 0.822 (0.822) Data 0.70 loss 0.266 (0.266) @1 91.016 (91.016) ETA 0 D 6.3 H
+2021-11-22 04:35:16 - INFO - [59][100/196] Time 0.119 (0.125) Data 0.00 loss 0.359 (0.320) @1 86.719 (89.298) ETA 0 D 1.0 H
+2021-11-22 04:35:29 - INFO - best_prec1: 87.420000 ./results/int-vgg-small-8
+2021-11-22 04:35:30 - INFO - Epoch: 59 Train Prec@1 89.112 Train Loss 0.321 Valid Prec@1 86.730 Valid Loss 0.409 
+
+2021-11-22 04:35:30 - INFO - [60][  0/196] Time 0.854 (0.854) Data 0.73 loss 0.285 (0.285) @1 89.844 (89.844) ETA 0 D 6.5 H
+2021-11-22 04:35:42 - INFO - [60][100/196] Time 0.123 (0.129) Data 0.00 loss 0.281 (0.318) @1 90.625 (89.260) ETA 0 D 1.0 H
+2021-11-22 04:35:56 - INFO - best_prec1: 87.420000 ./results/int-vgg-small-8
+2021-11-22 04:35:56 - INFO - Epoch: 60 Train Prec@1 89.206 Train Loss 0.321 Valid Prec@1 86.430 Valid Loss 0.436 
+
+2021-11-22 04:35:57 - INFO - [61][  0/196] Time 0.900 (0.900) Data 0.77 loss 0.206 (0.206) @1 91.406 (91.406) ETA 0 D 6.8 H
+2021-11-22 04:36:09 - INFO - [61][100/196] Time 0.120 (0.129) Data 0.00 loss 0.295 (0.299) @1 89.844 (90.029) ETA 0 D 1.0 H
+2021-11-22 04:36:23 - INFO - best_prec1: 87.420000 ./results/int-vgg-small-8
+2021-11-22 04:36:23 - INFO - Epoch: 61 Train Prec@1 89.636 Train Loss 0.310 Valid Prec@1 86.020 Valid Loss 0.459 
+
+2021-11-22 04:36:24 - INFO - [62][  0/196] Time 0.876 (0.876) Data 0.75 loss 0.385 (0.385) @1 87.500 (87.500) ETA 0 D 6.6 H
+2021-11-22 04:36:36 - INFO - [62][100/196] Time 0.121 (0.129) Data 0.00 loss 0.324 (0.300) @1 90.234 (89.921) ETA 0 D 1.0 H
+2021-11-22 04:36:50 - INFO - best_prec1: 87.420000 ./results/int-vgg-small-8
+2021-11-22 04:36:50 - INFO - Epoch: 62 Train Prec@1 89.616 Train Loss 0.308 Valid Prec@1 86.620 Valid Loss 0.432 
+
+2021-11-22 04:36:51 - INFO - [63][  0/196] Time 0.848 (0.848) Data 0.72 loss 0.221 (0.221) @1 91.406 (91.406) ETA 0 D 6.3 H
+2021-11-22 04:37:03 - INFO - [63][100/196] Time 0.120 (0.129) Data 0.00 loss 0.288 (0.308) @1 90.234 (89.712) ETA 0 D 1.0 H
+2021-11-22 04:37:17 - INFO - best_prec1: 87.420000 ./results/int-vgg-small-8
+2021-11-22 04:37:17 - INFO - Epoch: 63 Train Prec@1 89.762 Train Loss 0.306 Valid Prec@1 86.960 Valid Loss 0.403 
+
+2021-11-22 04:37:18 - INFO - [64][  0/196] Time 0.863 (0.863) Data 0.74 loss 0.263 (0.263) @1 91.016 (91.016) ETA 0 D 6.4 H
+2021-11-22 04:37:30 - INFO - [64][100/196] Time 0.123 (0.129) Data 0.00 loss 0.310 (0.295) @1 88.672 (90.196) ETA 0 D 0.9 H
+2021-11-22 04:37:44 - INFO - best_prec1: 87.510000 ./results/int-vgg-small-8
+2021-11-22 04:37:44 - INFO - Epoch: 64 Train Prec@1 90.076 Train Loss 0.298 Valid Prec@1 87.510 Valid Loss 0.420 
+
+2021-11-22 04:37:45 - INFO - [65][  0/196] Time 0.862 (0.862) Data 0.73 loss 0.332 (0.332) @1 87.500 (87.500) ETA 0 D 6.3 H
+2021-11-22 04:37:57 - INFO - [65][100/196] Time 0.121 (0.129) Data 0.00 loss 0.286 (0.294) @1 88.672 (90.188) ETA 0 D 0.9 H
+2021-11-22 04:38:11 - INFO - best_prec1: 87.510000 ./results/int-vgg-small-8
+2021-11-22 04:38:11 - INFO - Epoch: 65 Train Prec@1 89.678 Train Loss 0.304 Valid Prec@1 85.570 Valid Loss 0.498 
+
+2021-11-22 04:38:12 - INFO - [66][  0/196] Time 0.835 (0.835) Data 0.70 loss 0.348 (0.348) @1 87.891 (87.891) ETA 0 D 6.1 H
+2021-11-22 04:38:24 - INFO - [66][100/196] Time 0.121 (0.128) Data 0.00 loss 0.309 (0.301) @1 89.844 (89.863) ETA 0 D 0.9 H
+2021-11-22 04:38:38 - INFO - best_prec1: 87.510000 ./results/int-vgg-small-8
+2021-11-22 04:38:38 - INFO - Epoch: 66 Train Prec@1 89.816 Train Loss 0.302 Valid Prec@1 86.480 Valid Loss 0.430 
+
+2021-11-22 04:38:39 - INFO - [67][  0/196] Time 0.898 (0.898) Data 0.77 loss 0.353 (0.353) @1 87.891 (87.891) ETA 0 D 6.5 H
+2021-11-22 04:38:51 - INFO - [67][100/196] Time 0.121 (0.129) Data 0.00 loss 0.244 (0.288) @1 92.188 (90.432) ETA 0 D 0.9 H
+2021-11-22 04:39:05 - INFO - best_prec1: 87.510000 ./results/int-vgg-small-8
+2021-11-22 04:39:05 - INFO - Epoch: 67 Train Prec@1 90.066 Train Loss 0.295 Valid Prec@1 86.860 Valid Loss 0.425 
+
+2021-11-22 04:39:06 - INFO - [68][  0/196] Time 0.881 (0.881) Data 0.75 loss 0.285 (0.285) @1 87.891 (87.891) ETA 0 D 6.3 H
+2021-11-22 04:39:18 - INFO - [68][100/196] Time 0.120 (0.128) Data 0.00 loss 0.335 (0.289) @1 87.500 (90.068) ETA 0 D 0.9 H
+2021-11-22 04:39:32 - INFO - best_prec1: 87.510000 ./results/int-vgg-small-8
+2021-11-22 04:39:32 - INFO - Epoch: 68 Train Prec@1 89.952 Train Loss 0.295 Valid Prec@1 87.110 Valid Loss 0.405 
+
+2021-11-22 04:39:33 - INFO - [69][  0/196] Time 0.858 (0.858) Data 0.73 loss 0.220 (0.220) @1 93.750 (93.750) ETA 0 D 6.1 H
+2021-11-22 04:39:45 - INFO - [69][100/196] Time 0.123 (0.129) Data 0.00 loss 0.254 (0.286) @1 92.969 (90.219) ETA 0 D 0.9 H
+2021-11-22 04:39:59 - INFO - best_prec1: 87.510000 ./results/int-vgg-small-8
+2021-11-22 04:39:59 - INFO - Epoch: 69 Train Prec@1 90.060 Train Loss 0.293 Valid Prec@1 84.090 Valid Loss 0.526 
+
+2021-11-22 04:40:00 - INFO - [70][  0/196] Time 0.887 (0.887) Data 0.75 loss 0.291 (0.291) @1 90.625 (90.625) ETA 0 D 6.3 H
+2021-11-22 04:40:12 - INFO - [70][100/196] Time 0.120 (0.129) Data 0.00 loss 0.194 (0.277) @1 95.312 (90.555) ETA 0 D 0.9 H
+2021-11-22 04:40:26 - INFO - best_prec1: 87.510000 ./results/int-vgg-small-8
+2021-11-22 04:40:26 - INFO - Epoch: 70 Train Prec@1 90.226 Train Loss 0.285 Valid Prec@1 87.120 Valid Loss 0.412 
+
+2021-11-22 04:40:27 - INFO - [71][  0/196] Time 0.840 (0.840) Data 0.71 loss 0.247 (0.247) @1 92.188 (92.188) ETA 0 D 5.9 H
+2021-11-22 04:40:39 - INFO - [71][100/196] Time 0.122 (0.128) Data 0.00 loss 0.247 (0.288) @1 92.969 (90.172) ETA 0 D 0.9 H
+2021-11-22 04:40:52 - INFO - best_prec1: 87.510000 ./results/int-vgg-small-8
+2021-11-22 04:40:52 - INFO - Epoch: 71 Train Prec@1 90.170 Train Loss 0.290 Valid Prec@1 87.260 Valid Loss 0.420 
+
+2021-11-22 04:40:53 - INFO - [72][  0/196] Time 0.821 (0.821) Data 0.69 loss 0.265 (0.265) @1 91.406 (91.406) ETA 0 D 5.7 H
+2021-11-22 04:41:05 - INFO - [72][100/196] Time 0.122 (0.128) Data 0.00 loss 0.211 (0.277) @1 93.359 (90.463) ETA 0 D 0.9 H
+2021-11-22 04:41:19 - INFO - best_prec1: 87.510000 ./results/int-vgg-small-8
+2021-11-22 04:41:19 - INFO - Epoch: 72 Train Prec@1 90.318 Train Loss 0.284 Valid Prec@1 85.640 Valid Loss 0.461 
+
+2021-11-22 04:41:20 - INFO - [73][  0/196] Time 0.829 (0.829) Data 0.70 loss 0.262 (0.262) @1 90.234 (90.234) ETA 0 D 5.7 H
+2021-11-22 04:41:32 - INFO - [73][100/196] Time 0.127 (0.128) Data 0.00 loss 0.277 (0.271) @1 90.625 (90.807) ETA 0 D 0.9 H
+2021-11-22 04:41:46 - INFO - best_prec1: 87.510000 ./results/int-vgg-small-8
+2021-11-22 04:41:46 - INFO - Epoch: 73 Train Prec@1 90.374 Train Loss 0.282 Valid Prec@1 86.270 Valid Loss 0.467 
+
+2021-11-22 04:41:47 - INFO - [74][  0/196] Time 0.848 (0.848) Data 0.72 loss 0.260 (0.260) @1 92.188 (92.188) ETA 0 D 5.8 H
+2021-11-22 04:41:59 - INFO - [74][100/196] Time 0.120 (0.128) Data 0.00 loss 0.212 (0.287) @1 92.578 (90.532) ETA 0 D 0.9 H
+2021-11-22 04:42:13 - INFO - best_prec1: 87.510000 ./results/int-vgg-small-8
+2021-11-22 04:42:13 - INFO - Epoch: 74 Train Prec@1 90.498 Train Loss 0.284 Valid Prec@1 87.240 Valid Loss 0.438 
+
+2021-11-22 04:42:14 - INFO - [75][  0/196] Time 0.860 (0.860) Data 0.73 loss 0.278 (0.278) @1 90.625 (90.625) ETA 0 D 5.9 H
+2021-11-22 04:42:26 - INFO - [75][100/196] Time 0.120 (0.128) Data 0.00 loss 0.353 (0.274) @1 87.500 (90.683) ETA 0 D 0.9 H
+2021-11-22 04:42:40 - INFO - best_prec1: 87.510000 ./results/int-vgg-small-8
+2021-11-22 04:42:40 - INFO - Epoch: 75 Train Prec@1 90.554 Train Loss 0.278 Valid Prec@1 85.520 Valid Loss 0.484 
+
+2021-11-22 04:42:41 - INFO - [76][  0/196] Time 0.843 (0.843) Data 0.72 loss 0.288 (0.288) @1 89.453 (89.453) ETA 0 D 5.7 H
+2021-11-22 04:42:53 - INFO - [76][100/196] Time 0.122 (0.128) Data 0.00 loss 0.185 (0.270) @1 92.578 (90.842) ETA 0 D 0.9 H
+2021-11-22 04:43:07 - INFO - best_prec1: 87.870000 ./results/int-vgg-small-8
+2021-11-22 04:43:07 - INFO - Epoch: 76 Train Prec@1 90.648 Train Loss 0.275 Valid Prec@1 87.870 Valid Loss 0.379 
+
+2021-11-22 04:43:08 - INFO - [77][  0/196] Time 0.869 (0.869) Data 0.74 loss 0.192 (0.192) @1 93.750 (93.750) ETA 0 D 5.8 H
+2021-11-22 04:43:20 - INFO - [77][100/196] Time 0.121 (0.128) Data 0.00 loss 0.339 (0.284) @1 88.672 (90.439) ETA 0 D 0.9 H
+2021-11-22 04:43:34 - INFO - best_prec1: 87.870000 ./results/int-vgg-small-8
+2021-11-22 04:43:34 - INFO - Epoch: 77 Train Prec@1 90.484 Train Loss 0.281 Valid Prec@1 86.150 Valid Loss 0.436 
+
+2021-11-22 04:43:35 - INFO - [78][  0/196] Time 0.842 (0.842) Data 0.72 loss 0.283 (0.283) @1 91.797 (91.797) ETA 0 D 5.6 H
+2021-11-22 04:43:47 - INFO - [78][100/196] Time 0.119 (0.128) Data 0.00 loss 0.405 (0.265) @1 86.328 (91.128) ETA 0 D 0.8 H
+2021-11-22 04:44:00 - INFO - best_prec1: 87.870000 ./results/int-vgg-small-8
+2021-11-22 04:44:01 - INFO - Epoch: 78 Train Prec@1 90.800 Train Loss 0.276 Valid Prec@1 85.390 Valid Loss 0.481 
+
+2021-11-22 04:44:01 - INFO - [79][  0/196] Time 0.876 (0.876) Data 0.75 loss 0.306 (0.306) @1 89.062 (89.062) ETA 0 D 5.8 H
+2021-11-22 04:44:13 - INFO - [79][100/196] Time 0.121 (0.128) Data 0.00 loss 0.269 (0.264) @1 91.016 (91.035) ETA 0 D 0.8 H
+2021-11-22 04:44:27 - INFO - best_prec1: 87.870000 ./results/int-vgg-small-8
+2021-11-22 04:44:27 - INFO - Epoch: 79 Train Prec@1 90.868 Train Loss 0.268 Valid Prec@1 87.250 Valid Loss 0.392 
+
+2021-11-22 04:44:28 - INFO - [80][  0/196] Time 0.850 (0.850) Data 0.72 loss 0.227 (0.227) @1 92.969 (92.969) ETA 0 D 5.6 H
+2021-11-22 04:44:40 - INFO - [80][100/196] Time 0.121 (0.128) Data 0.00 loss 0.378 (0.271) @1 85.938 (90.896) ETA 0 D 0.8 H
+2021-11-22 04:44:54 - INFO - best_prec1: 87.870000 ./results/int-vgg-small-8
+2021-11-22 04:44:54 - INFO - Epoch: 80 Train Prec@1 90.892 Train Loss 0.271 Valid Prec@1 86.480 Valid Loss 0.459 
+
+2021-11-22 04:44:55 - INFO - [81][  0/196] Time 0.843 (0.843) Data 0.72 loss 0.238 (0.238) @1 92.578 (92.578) ETA 0 D 5.5 H
+2021-11-22 04:45:07 - INFO - [81][100/196] Time 0.119 (0.128) Data 0.00 loss 0.314 (0.266) @1 89.453 (91.089) ETA 0 D 0.8 H
+2021-11-22 04:45:21 - INFO - best_prec1: 87.870000 ./results/int-vgg-small-8
+2021-11-22 04:45:21 - INFO - Epoch: 81 Train Prec@1 90.938 Train Loss 0.268 Valid Prec@1 85.960 Valid Loss 0.481 
+
+2021-11-22 04:45:22 - INFO - [82][  0/196] Time 0.776 (0.776) Data 0.65 loss 0.442 (0.442) @1 86.719 (86.719) ETA 0 D 5.0 H
+2021-11-22 04:45:34 - INFO - [82][100/196] Time 0.116 (0.124) Data 0.00 loss 0.192 (0.265) @1 92.969 (91.050) ETA 0 D 0.8 H
+2021-11-22 04:45:47 - INFO - best_prec1: 87.910000 ./results/int-vgg-small-8
+2021-11-22 04:45:47 - INFO - Epoch: 82 Train Prec@1 91.044 Train Loss 0.266 Valid Prec@1 87.910 Valid Loss 0.394 
+
+2021-11-22 04:45:48 - INFO - [83][  0/196] Time 0.787 (0.787) Data 0.66 loss 0.171 (0.171) @1 93.750 (93.750) ETA 0 D 5.0 H
+2021-11-22 04:46:00 - INFO - [83][100/196] Time 0.117 (0.125) Data 0.00 loss 0.216 (0.264) @1 92.578 (91.058) ETA 0 D 0.8 H
+2021-11-22 04:46:13 - INFO - best_prec1: 87.910000 ./results/int-vgg-small-8
+2021-11-22 04:46:13 - INFO - Epoch: 83 Train Prec@1 91.012 Train Loss 0.266 Valid Prec@1 86.300 Valid Loss 0.425 
+
+2021-11-22 04:46:14 - INFO - [84][  0/196] Time 0.813 (0.813) Data 0.69 loss 0.301 (0.301) @1 92.188 (92.188) ETA 0 D 5.1 H
+2021-11-22 04:46:26 - INFO - [84][100/196] Time 0.117 (0.125) Data 0.00 loss 0.352 (0.263) @1 86.719 (91.317) ETA 0 D 0.8 H
+2021-11-22 04:46:40 - INFO - best_prec1: 87.910000 ./results/int-vgg-small-8
+2021-11-22 04:46:40 - INFO - Epoch: 84 Train Prec@1 90.956 Train Loss 0.266 Valid Prec@1 87.040 Valid Loss 0.410 
+
+2021-11-22 04:46:40 - INFO - [85][  0/196] Time 0.836 (0.836) Data 0.71 loss 0.272 (0.272) @1 88.672 (88.672) ETA 0 D 5.2 H
+2021-11-22 04:46:52 - INFO - [85][100/196] Time 0.118 (0.125) Data 0.00 loss 0.219 (0.258) @1 94.141 (91.136) ETA 0 D 0.8 H
+2021-11-22 04:47:06 - INFO - best_prec1: 87.910000 ./results/int-vgg-small-8
+2021-11-22 04:47:06 - INFO - Epoch: 85 Train Prec@1 90.944 Train Loss 0.266 Valid Prec@1 86.510 Valid Loss 0.471 
+
+2021-11-22 04:47:07 - INFO - [86][  0/196] Time 0.812 (0.812) Data 0.69 loss 0.275 (0.275) @1 90.625 (90.625) ETA 0 D 5.0 H
+2021-11-22 04:47:18 - INFO - [86][100/196] Time 0.117 (0.124) Data 0.00 loss 0.264 (0.255) @1 91.016 (91.437) ETA 0 D 0.8 H
+2021-11-22 04:47:32 - INFO - best_prec1: 87.910000 ./results/int-vgg-small-8
+2021-11-22 04:47:32 - INFO - Epoch: 86 Train Prec@1 91.144 Train Loss 0.262 Valid Prec@1 87.630 Valid Loss 0.395 
+
+2021-11-22 04:47:33 - INFO - [87][  0/196] Time 0.797 (0.797) Data 0.67 loss 0.211 (0.211) @1 92.578 (92.578) ETA 0 D 4.9 H
+2021-11-22 04:47:44 - INFO - [87][100/196] Time 0.116 (0.124) Data 0.00 loss 0.240 (0.257) @1 91.016 (91.383) ETA 0 D 0.8 H
+2021-11-22 04:47:58 - INFO - best_prec1: 87.910000 ./results/int-vgg-small-8
+2021-11-22 04:47:58 - INFO - Epoch: 87 Train Prec@1 91.218 Train Loss 0.261 Valid Prec@1 87.190 Valid Loss 0.398 
+
+2021-11-22 04:47:59 - INFO - [88][  0/196] Time 0.808 (0.808) Data 0.69 loss 0.223 (0.223) @1 92.578 (92.578) ETA 0 D 4.9 H
+2021-11-22 04:48:10 - INFO - [88][100/196] Time 0.116 (0.124) Data 0.00 loss 0.259 (0.258) @1 90.234 (91.108) ETA 0 D 0.8 H
+2021-11-22 04:48:24 - INFO - best_prec1: 87.910000 ./results/int-vgg-small-8
+2021-11-22 04:48:24 - INFO - Epoch: 88 Train Prec@1 91.170 Train Loss 0.261 Valid Prec@1 87.290 Valid Loss 0.444 
+
+2021-11-22 04:48:25 - INFO - [89][  0/196] Time 0.839 (0.839) Data 0.71 loss 0.268 (0.268) @1 91.406 (91.406) ETA 0 D 5.1 H
+2021-11-22 04:48:36 - INFO - [89][100/196] Time 0.118 (0.124) Data 0.00 loss 0.313 (0.254) @1 87.500 (91.341) ETA 0 D 0.7 H
+2021-11-22 04:48:50 - INFO - best_prec1: 87.910000 ./results/int-vgg-small-8
+2021-11-22 04:48:50 - INFO - Epoch: 89 Train Prec@1 91.202 Train Loss 0.257 Valid Prec@1 84.820 Valid Loss 0.536 
+
+2021-11-22 04:48:51 - INFO - [90][  0/196] Time 0.820 (0.820) Data 0.70 loss 0.319 (0.319) @1 89.453 (89.453) ETA 0 D 4.9 H
+2021-11-22 04:49:02 - INFO - [90][100/196] Time 0.117 (0.124) Data 0.00 loss 0.267 (0.252) @1 89.453 (91.395) ETA 0 D 0.7 H
+2021-11-22 04:49:16 - INFO - best_prec1: 87.910000 ./results/int-vgg-small-8
+2021-11-22 04:49:16 - INFO - Epoch: 90 Train Prec@1 91.274 Train Loss 0.258 Valid Prec@1 86.350 Valid Loss 0.429 
+
+2021-11-22 04:49:17 - INFO - [91][  0/196] Time 0.798 (0.798) Data 0.67 loss 0.238 (0.238) @1 92.578 (92.578) ETA 0 D 4.7 H
+2021-11-22 04:49:28 - INFO - [91][100/196] Time 0.117 (0.125) Data 0.00 loss 0.254 (0.258) @1 91.797 (91.313) ETA 0 D 0.7 H
+2021-11-22 04:49:42 - INFO - best_prec1: 88.210000 ./results/int-vgg-small-8
+2021-11-22 04:49:42 - INFO - Epoch: 91 Train Prec@1 91.248 Train Loss 0.261 Valid Prec@1 88.210 Valid Loss 0.388 
+
+2021-11-22 04:49:43 - INFO - [92][  0/196] Time 0.828 (0.828) Data 0.70 loss 0.271 (0.271) @1 91.406 (91.406) ETA 0 D 4.9 H
+2021-11-22 04:49:55 - INFO - [92][100/196] Time 0.116 (0.125) Data 0.00 loss 0.395 (0.247) @1 90.234 (91.816) ETA 0 D 0.7 H
+2021-11-22 04:50:08 - INFO - best_prec1: 88.210000 ./results/int-vgg-small-8
+2021-11-22 04:50:08 - INFO - Epoch: 92 Train Prec@1 91.386 Train Loss 0.258 Valid Prec@1 87.010 Valid Loss 0.422 
+
+2021-11-22 04:50:09 - INFO - [93][  0/196] Time 0.802 (0.802) Data 0.68 loss 0.215 (0.215) @1 94.141 (94.141) ETA 0 D 4.7 H
+2021-11-22 04:50:21 - INFO - [93][100/196] Time 0.115 (0.124) Data 0.00 loss 0.384 (0.242) @1 88.281 (91.692) ETA 0 D 0.7 H
+2021-11-22 04:50:34 - INFO - best_prec1: 88.210000 ./results/int-vgg-small-8
+2021-11-22 04:50:34 - INFO - Epoch: 93 Train Prec@1 91.460 Train Loss 0.249 Valid Prec@1 86.850 Valid Loss 0.448 
+
+2021-11-22 04:50:35 - INFO - [94][  0/196] Time 0.796 (0.796) Data 0.67 loss 0.270 (0.270) @1 91.797 (91.797) ETA 0 D 4.6 H
+2021-11-22 04:50:47 - INFO - [94][100/196] Time 0.118 (0.124) Data 0.00 loss 0.237 (0.245) @1 92.188 (91.457) ETA 0 D 0.7 H
+2021-11-22 04:51:00 - INFO - best_prec1: 88.210000 ./results/int-vgg-small-8
+2021-11-22 04:51:00 - INFO - Epoch: 94 Train Prec@1 91.374 Train Loss 0.250 Valid Prec@1 87.780 Valid Loss 0.420 
+
+2021-11-22 04:51:01 - INFO - [95][  0/196] Time 0.796 (0.796) Data 0.67 loss 0.205 (0.205) @1 92.578 (92.578) ETA 0 D 4.5 H
+2021-11-22 04:51:13 - INFO - [95][100/196] Time 0.119 (0.125) Data 0.00 loss 0.372 (0.236) @1 87.891 (92.064) ETA 0 D 0.7 H
+2021-11-22 04:51:26 - INFO - best_prec1: 88.210000 ./results/int-vgg-small-8
+2021-11-22 04:51:26 - INFO - Epoch: 95 Train Prec@1 91.774 Train Loss 0.243 Valid Prec@1 87.180 Valid Loss 0.440 
+
+2021-11-22 04:51:27 - INFO - [96][  0/196] Time 0.788 (0.788) Data 0.66 loss 0.228 (0.228) @1 92.578 (92.578) ETA 0 D 4.5 H
+2021-11-22 04:51:39 - INFO - [96][100/196] Time 0.118 (0.125) Data 0.00 loss 0.175 (0.242) @1 94.141 (91.866) ETA 0 D 0.7 H
+2021-11-22 04:51:53 - INFO - best_prec1: 88.210000 ./results/int-vgg-small-8
+2021-11-22 04:51:53 - INFO - Epoch: 96 Train Prec@1 91.678 Train Loss 0.247 Valid Prec@1 86.750 Valid Loss 0.477 
+
+2021-11-22 04:51:53 - INFO - [97][  0/196] Time 0.809 (0.809) Data 0.69 loss 0.221 (0.221) @1 91.797 (91.797) ETA 0 D 4.5 H
+2021-11-22 04:52:05 - INFO - [97][100/196] Time 0.117 (0.125) Data 0.00 loss 0.236 (0.236) @1 92.578 (92.122) ETA 0 D 0.7 H
+2021-11-22 04:52:19 - INFO - best_prec1: 88.210000 ./results/int-vgg-small-8
+2021-11-22 04:52:19 - INFO - Epoch: 97 Train Prec@1 91.924 Train Loss 0.243 Valid Prec@1 86.790 Valid Loss 0.420 
+
+2021-11-22 04:52:19 - INFO - [98][  0/196] Time 0.809 (0.809) Data 0.68 loss 0.203 (0.203) @1 94.531 (94.531) ETA 0 D 4.5 H
+2021-11-22 04:52:31 - INFO - [98][100/196] Time 0.117 (0.124) Data 0.00 loss 0.333 (0.234) @1 88.281 (92.091) ETA 0 D 0.7 H
+2021-11-22 04:52:45 - INFO - best_prec1: 88.210000 ./results/int-vgg-small-8
+2021-11-22 04:52:45 - INFO - Epoch: 98 Train Prec@1 91.758 Train Loss 0.244 Valid Prec@1 86.200 Valid Loss 0.421 
+
+2021-11-22 04:52:46 - INFO - [99][  0/196] Time 0.848 (0.848) Data 0.72 loss 0.283 (0.283) @1 89.453 (89.453) ETA 0 D 4.7 H
+2021-11-22 04:52:57 - INFO - [99][100/196] Time 0.117 (0.124) Data 0.00 loss 0.342 (0.239) @1 89.453 (91.801) ETA 0 D 0.7 H
+2021-11-22 04:53:11 - INFO - best_prec1: 88.210000 ./results/int-vgg-small-8
+2021-11-22 04:53:11 - INFO - Epoch: 99 Train Prec@1 91.784 Train Loss 0.242 Valid Prec@1 86.980 Valid Loss 0.423 
+
+2021-11-22 04:53:11 - INFO - Change Grad Bitwidth to : 4
+2021-11-22 04:53:12 - INFO - [100][  0/196] Time 0.878 (0.878) Data 0.75 loss 0.250 (0.250) @1 92.578 (92.578) ETA 0 D 4.8 H
+2021-11-22 04:53:23 - INFO - [100][100/196] Time 0.118 (0.126) Data 0.00 loss 0.189 (0.144) @1 93.359 (95.127) ETA 0 D 0.7 H
+2021-11-22 04:53:37 - INFO - best_prec1: 89.080000 ./results/int-vgg-small-8
+2021-11-22 04:53:37 - INFO - Epoch: 100 Train Prec@1 95.122 Train Loss 0.142 Valid Prec@1 89.080 Valid Loss 0.396 
+
+2021-11-22 04:53:38 - INFO - [101][  0/196] Time 0.815 (0.815) Data 0.69 loss 0.125 (0.125) @1 96.484 (96.484) ETA 0 D 4.4 H
+2021-11-22 04:53:50 - INFO - [101][100/196] Time 0.120 (0.125) Data 0.00 loss 0.097 (0.121) @1 97.266 (95.974) ETA 0 D 0.7 H
+2021-11-22 04:54:03 - INFO - best_prec1: 89.600000 ./results/int-vgg-small-8
+2021-11-22 04:54:03 - INFO - Epoch: 101 Train Prec@1 95.740 Train Loss 0.125 Valid Prec@1 89.600 Valid Loss 0.379 
+
+2021-11-22 04:54:04 - INFO - [102][  0/196] Time 0.800 (0.800) Data 0.67 loss 0.057 (0.057) @1 98.047 (98.047) ETA 0 D 4.3 H
+2021-11-22 04:54:16 - INFO - [102][100/196] Time 0.117 (0.124) Data 0.00 loss 0.153 (0.117) @1 95.312 (95.912) ETA 0 D 0.7 H
+2021-11-22 04:54:29 - INFO - best_prec1: 89.980000 ./results/int-vgg-small-8
+2021-11-22 04:54:29 - INFO - Epoch: 102 Train Prec@1 95.834 Train Loss 0.119 Valid Prec@1 89.980 Valid Loss 0.355 
+
+2021-11-22 04:54:30 - INFO - [103][  0/196] Time 0.810 (0.810) Data 0.68 loss 0.050 (0.050) @1 99.609 (99.609) ETA 0 D 4.3 H
+2021-11-22 04:54:42 - INFO - [103][100/196] Time 0.117 (0.125) Data 0.00 loss 0.086 (0.113) @1 97.266 (96.221) ETA 0 D 0.7 H
+2021-11-22 04:54:56 - INFO - best_prec1: 89.980000 ./results/int-vgg-small-8
+2021-11-22 04:54:56 - INFO - Epoch: 103 Train Prec@1 96.124 Train Loss 0.114 Valid Prec@1 89.900 Valid Loss 0.361 
+
+2021-11-22 04:54:56 - INFO - [104][  0/196] Time 0.864 (0.864) Data 0.73 loss 0.085 (0.085) @1 97.266 (97.266) ETA 0 D 4.5 H
+2021-11-22 04:55:08 - INFO - [104][100/196] Time 0.119 (0.125) Data 0.00 loss 0.094 (0.110) @1 96.875 (96.276) ETA 0 D 0.7 H
+2021-11-22 04:55:22 - INFO - best_prec1: 89.980000 ./results/int-vgg-small-8
+2021-11-22 04:55:22 - INFO - Epoch: 104 Train Prec@1 96.120 Train Loss 0.113 Valid Prec@1 88.580 Valid Loss 0.424 
+
+2021-11-22 04:55:23 - INFO - [105][  0/196] Time 0.871 (0.871) Data 0.74 loss 0.121 (0.121) @1 96.094 (96.094) ETA 0 D 4.5 H
+2021-11-22 04:55:35 - INFO - [105][100/196] Time 0.119 (0.126) Data 0.00 loss 0.118 (0.105) @1 95.703 (96.318) ETA 0 D 0.6 H
+2021-11-22 04:55:48 - INFO - best_prec1: 89.980000 ./results/int-vgg-small-8
+2021-11-22 04:55:48 - INFO - Epoch: 105 Train Prec@1 96.246 Train Loss 0.108 Valid Prec@1 89.910 Valid Loss 0.391 
+
+2021-11-22 04:55:49 - INFO - [106][  0/196] Time 0.848 (0.848) Data 0.72 loss 0.127 (0.127) @1 94.922 (94.922) ETA 0 D 4.3 H
+2021-11-22 04:56:01 - INFO - [106][100/196] Time 0.117 (0.125) Data 0.00 loss 0.084 (0.105) @1 95.703 (96.434) ETA 0 D 0.6 H
+2021-11-22 04:56:14 - INFO - best_prec1: 89.980000 ./results/int-vgg-small-8
+2021-11-22 04:56:14 - INFO - Epoch: 106 Train Prec@1 96.372 Train Loss 0.107 Valid Prec@1 89.600 Valid Loss 0.399 
+
+2021-11-22 04:56:15 - INFO - [107][  0/196] Time 0.734 (0.734) Data 0.61 loss 0.084 (0.084) @1 98.047 (98.047) ETA 0 D 3.7 H
+2021-11-22 04:56:27 - INFO - [107][100/196] Time 0.119 (0.125) Data 0.00 loss 0.118 (0.104) @1 95.703 (96.419) ETA 0 D 0.6 H
+2021-11-22 04:56:41 - INFO - best_prec1: 90.000000 ./results/int-vgg-small-8
+2021-11-22 04:56:41 - INFO - Epoch: 107 Train Prec@1 96.292 Train Loss 0.109 Valid Prec@1 90.000 Valid Loss 0.390 
+
+2021-11-22 04:56:42 - INFO - [108][  0/196] Time 0.787 (0.787) Data 0.66 loss 0.080 (0.080) @1 97.266 (97.266) ETA 0 D 3.9 H
+2021-11-22 04:56:53 - INFO - [108][100/196] Time 0.119 (0.125) Data 0.00 loss 0.186 (0.100) @1 93.750 (96.655) ETA 0 D 0.6 H
+2021-11-22 04:57:07 - INFO - best_prec1: 90.000000 ./results/int-vgg-small-8
+2021-11-22 04:57:07 - INFO - Epoch: 108 Train Prec@1 96.492 Train Loss 0.103 Valid Prec@1 89.870 Valid Loss 0.396 
+
+2021-11-22 04:57:08 - INFO - [109][  0/196] Time 0.706 (0.706) Data 0.57 loss 0.116 (0.116) @1 95.312 (95.312) ETA 0 D 3.5 H
+2021-11-22 04:57:20 - INFO - [109][100/196] Time 0.117 (0.124) Data 0.00 loss 0.085 (0.102) @1 97.266 (96.488) ETA 0 D 0.6 H
+2021-11-22 04:57:33 - INFO - best_prec1: 90.000000 ./results/int-vgg-small-8
+2021-11-22 04:57:33 - INFO - Epoch: 109 Train Prec@1 96.428 Train Loss 0.104 Valid Prec@1 89.770 Valid Loss 0.390 
+
+2021-11-22 04:57:34 - INFO - [110][  0/196] Time 0.797 (0.797) Data 0.67 loss 0.090 (0.090) @1 96.875 (96.875) ETA 0 D 3.9 H
+2021-11-22 04:57:46 - INFO - [110][100/196] Time 0.116 (0.125) Data 0.00 loss 0.080 (0.097) @1 97.656 (96.678) ETA 0 D 0.6 H
+2021-11-22 04:57:59 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 04:57:59 - INFO - Epoch: 110 Train Prec@1 96.566 Train Loss 0.099 Valid Prec@1 90.100 Valid Loss 0.403 
+
+2021-11-22 04:58:00 - INFO - [111][  0/196] Time 0.854 (0.854) Data 0.72 loss 0.073 (0.073) @1 97.656 (97.656) ETA 0 D 4.1 H
+2021-11-22 04:58:12 - INFO - [111][100/196] Time 0.116 (0.125) Data 0.00 loss 0.074 (0.094) @1 97.266 (96.755) ETA 0 D 0.6 H
+2021-11-22 04:58:25 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 04:58:25 - INFO - Epoch: 111 Train Prec@1 96.632 Train Loss 0.097 Valid Prec@1 89.620 Valid Loss 0.416 
+
+2021-11-22 04:58:26 - INFO - [112][  0/196] Time 0.800 (0.800) Data 0.67 loss 0.094 (0.094) @1 95.312 (95.312) ETA 0 D 3.8 H
+2021-11-22 04:58:38 - INFO - [112][100/196] Time 0.118 (0.125) Data 0.00 loss 0.087 (0.099) @1 96.875 (96.600) ETA 0 D 0.6 H
+2021-11-22 04:58:52 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 04:58:52 - INFO - Epoch: 112 Train Prec@1 96.566 Train Loss 0.099 Valid Prec@1 88.860 Valid Loss 0.430 
+
+2021-11-22 04:58:52 - INFO - [113][  0/196] Time 0.791 (0.791) Data 0.67 loss 0.089 (0.089) @1 96.094 (96.094) ETA 0 D 3.7 H
+2021-11-22 04:59:04 - INFO - [113][100/196] Time 0.117 (0.124) Data 0.00 loss 0.096 (0.092) @1 97.266 (96.747) ETA 0 D 0.6 H
+2021-11-22 04:59:18 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 04:59:18 - INFO - Epoch: 113 Train Prec@1 96.552 Train Loss 0.098 Valid Prec@1 89.660 Valid Loss 0.394 
+
+2021-11-22 04:59:19 - INFO - [114][  0/196] Time 0.946 (0.946) Data 0.82 loss 0.117 (0.117) @1 94.922 (94.922) ETA 0 D 4.4 H
+2021-11-22 04:59:30 - INFO - [114][100/196] Time 0.117 (0.125) Data 0.00 loss 0.099 (0.094) @1 96.484 (96.786) ETA 0 D 0.6 H
+2021-11-22 04:59:44 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 04:59:44 - INFO - Epoch: 114 Train Prec@1 96.740 Train Loss 0.095 Valid Prec@1 88.850 Valid Loss 0.442 
+
+2021-11-22 04:59:45 - INFO - [115][  0/196] Time 0.879 (0.879) Data 0.76 loss 0.124 (0.124) @1 94.922 (94.922) ETA 0 D 4.1 H
+2021-11-22 04:59:56 - INFO - [115][100/196] Time 0.117 (0.125) Data 0.00 loss 0.093 (0.093) @1 95.703 (96.786) ETA 0 D 0.6 H
+2021-11-22 05:00:10 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 05:00:10 - INFO - Epoch: 115 Train Prec@1 96.702 Train Loss 0.096 Valid Prec@1 89.250 Valid Loss 0.423 
+
+2021-11-22 05:00:11 - INFO - [116][  0/196] Time 0.786 (0.786) Data 0.66 loss 0.102 (0.102) @1 96.094 (96.094) ETA 0 D 3.6 H
+2021-11-22 05:00:22 - INFO - [116][100/196] Time 0.118 (0.124) Data 0.00 loss 0.104 (0.092) @1 95.312 (96.840) ETA 0 D 0.6 H
+2021-11-22 05:00:36 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 05:00:36 - INFO - Epoch: 116 Train Prec@1 96.754 Train Loss 0.093 Valid Prec@1 88.860 Valid Loss 0.468 
+
+2021-11-22 05:00:37 - INFO - [117][  0/196] Time 0.794 (0.794) Data 0.67 loss 0.144 (0.144) @1 93.359 (93.359) ETA 0 D 3.6 H
+2021-11-22 05:00:48 - INFO - [117][100/196] Time 0.116 (0.124) Data 0.00 loss 0.161 (0.091) @1 93.750 (96.840) ETA 0 D 0.6 H
+2021-11-22 05:01:02 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 05:01:02 - INFO - Epoch: 117 Train Prec@1 96.768 Train Loss 0.093 Valid Prec@1 89.600 Valid Loss 0.439 
+
+2021-11-22 05:01:03 - INFO - [118][  0/196] Time 0.814 (0.814) Data 0.69 loss 0.052 (0.052) @1 97.266 (97.266) ETA 0 D 3.6 H
+2021-11-22 05:01:15 - INFO - [118][100/196] Time 0.117 (0.125) Data 0.00 loss 0.050 (0.091) @1 98.438 (96.910) ETA 0 D 0.6 H
+2021-11-22 05:01:28 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 05:01:28 - INFO - Epoch: 118 Train Prec@1 96.868 Train Loss 0.091 Valid Prec@1 88.400 Valid Loss 0.484 
+
+2021-11-22 05:01:29 - INFO - [119][  0/196] Time 0.798 (0.798) Data 0.67 loss 0.135 (0.135) @1 94.531 (94.531) ETA 0 D 3.5 H
+2021-11-22 05:01:41 - INFO - [119][100/196] Time 0.116 (0.124) Data 0.00 loss 0.047 (0.093) @1 98.047 (96.832) ETA 0 D 0.5 H
+2021-11-22 05:01:54 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 05:01:54 - INFO - Epoch: 119 Train Prec@1 96.770 Train Loss 0.094 Valid Prec@1 89.640 Valid Loss 0.431 
+
+2021-11-22 05:01:55 - INFO - [120][  0/196] Time 0.796 (0.796) Data 0.67 loss 0.105 (0.105) @1 96.094 (96.094) ETA 0 D 3.5 H
+2021-11-22 05:02:07 - INFO - [120][100/196] Time 0.117 (0.124) Data 0.00 loss 0.094 (0.090) @1 95.703 (96.879) ETA 0 D 0.5 H
+2021-11-22 05:02:20 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 05:02:20 - INFO - Epoch: 120 Train Prec@1 96.778 Train Loss 0.091 Valid Prec@1 90.010 Valid Loss 0.403 
+
+2021-11-22 05:02:21 - INFO - [121][  0/196] Time 0.822 (0.822) Data 0.69 loss 0.066 (0.066) @1 98.828 (98.828) ETA 0 D 3.5 H
+2021-11-22 05:02:33 - INFO - [121][100/196] Time 0.117 (0.124) Data 0.00 loss 0.095 (0.087) @1 98.047 (97.003) ETA 0 D 0.5 H
+2021-11-22 05:02:46 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 05:02:46 - INFO - Epoch: 121 Train Prec@1 96.942 Train Loss 0.088 Valid Prec@1 88.870 Valid Loss 0.484 
+
+2021-11-22 05:02:47 - INFO - [122][  0/196] Time 0.785 (0.785) Data 0.65 loss 0.091 (0.091) @1 95.703 (95.703) ETA 0 D 3.3 H
+2021-11-22 05:02:59 - INFO - [122][100/196] Time 0.116 (0.124) Data 0.00 loss 0.099 (0.085) @1 95.703 (97.053) ETA 0 D 0.5 H
+2021-11-22 05:03:12 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 05:03:12 - INFO - Epoch: 122 Train Prec@1 97.024 Train Loss 0.087 Valid Prec@1 90.080 Valid Loss 0.398 
+
+2021-11-22 05:03:13 - INFO - [123][  0/196] Time 0.800 (0.800) Data 0.68 loss 0.085 (0.085) @1 98.047 (98.047) ETA 0 D 3.4 H
+2021-11-22 05:03:25 - INFO - [123][100/196] Time 0.116 (0.124) Data 0.00 loss 0.119 (0.090) @1 96.484 (96.844) ETA 0 D 0.5 H
+2021-11-22 05:03:38 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 05:03:38 - INFO - Epoch: 123 Train Prec@1 96.770 Train Loss 0.091 Valid Prec@1 90.010 Valid Loss 0.401 
+
+2021-11-22 05:03:39 - INFO - [124][  0/196] Time 0.811 (0.811) Data 0.69 loss 0.090 (0.090) @1 96.484 (96.484) ETA 0 D 3.4 H
+2021-11-22 05:03:51 - INFO - [124][100/196] Time 0.121 (0.125) Data 0.00 loss 0.083 (0.082) @1 97.266 (97.173) ETA 0 D 0.5 H
+2021-11-22 05:04:04 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 05:04:04 - INFO - Epoch: 124 Train Prec@1 97.036 Train Loss 0.085 Valid Prec@1 89.510 Valid Loss 0.447 
+
+2021-11-22 05:04:05 - INFO - [125][  0/196] Time 0.770 (0.770) Data 0.65 loss 0.080 (0.080) @1 96.875 (96.875) ETA 0 D 3.1 H
+2021-11-22 05:04:17 - INFO - [125][100/196] Time 0.119 (0.124) Data 0.00 loss 0.070 (0.085) @1 97.656 (96.983) ETA 0 D 0.5 H
+2021-11-22 05:04:30 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 05:04:30 - INFO - Epoch: 125 Train Prec@1 97.006 Train Loss 0.086 Valid Prec@1 89.620 Valid Loss 0.421 
+
+2021-11-22 05:04:31 - INFO - [126][  0/196] Time 0.792 (0.792) Data 0.66 loss 0.032 (0.032) @1 99.219 (99.219) ETA 0 D 3.2 H
+2021-11-22 05:04:43 - INFO - [126][100/196] Time 0.118 (0.124) Data 0.00 loss 0.059 (0.083) @1 98.047 (97.200) ETA 0 D 0.5 H
+2021-11-22 05:04:56 - INFO - best_prec1: 90.100000 ./results/int-vgg-small-8
+2021-11-22 05:04:56 - INFO - Epoch: 126 Train Prec@1 97.048 Train Loss 0.085 Valid Prec@1 89.590 Valid Loss 0.425 
+
+2021-11-22 05:04:57 - INFO - [127][  0/196] Time 0.841 (0.841) Data 0.72 loss 0.070 (0.070) @1 97.266 (97.266) ETA 0 D 3.3 H
+2021-11-22 05:05:09 - INFO - [127][100/196] Time 0.117 (0.125) Data 0.00 loss 0.059 (0.084) @1 97.656 (97.115) ETA 0 D 0.5 H
+2021-11-22 05:05:23 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:05:23 - INFO - Epoch: 127 Train Prec@1 97.094 Train Loss 0.084 Valid Prec@1 90.110 Valid Loss 0.418 
+
+2021-11-22 05:05:24 - INFO - [128][  0/196] Time 0.810 (0.810) Data 0.68 loss 0.055 (0.055) @1 98.047 (98.047) ETA 0 D 3.2 H
+2021-11-22 05:05:35 - INFO - [128][100/196] Time 0.117 (0.125) Data 0.00 loss 0.094 (0.083) @1 97.266 (97.200) ETA 0 D 0.5 H
+2021-11-22 05:05:49 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:05:49 - INFO - Epoch: 128 Train Prec@1 97.158 Train Loss 0.085 Valid Prec@1 89.700 Valid Loss 0.395 
+
+2021-11-22 05:05:50 - INFO - [129][  0/196] Time 0.824 (0.824) Data 0.70 loss 0.092 (0.092) @1 96.094 (96.094) ETA 0 D 3.2 H
+2021-11-22 05:06:01 - INFO - [129][100/196] Time 0.117 (0.124) Data 0.00 loss 0.085 (0.088) @1 97.266 (97.092) ETA 0 D 0.5 H
+2021-11-22 05:06:15 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:06:15 - INFO - Epoch: 129 Train Prec@1 97.090 Train Loss 0.086 Valid Prec@1 89.480 Valid Loss 0.450 
+
+2021-11-22 05:06:16 - INFO - [130][  0/196] Time 0.805 (0.805) Data 0.68 loss 0.074 (0.074) @1 96.875 (96.875) ETA 0 D 3.1 H
+2021-11-22 05:06:28 - INFO - [130][100/196] Time 0.118 (0.126) Data 0.00 loss 0.083 (0.085) @1 97.266 (97.076) ETA 0 D 0.5 H
+2021-11-22 05:06:41 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:06:41 - INFO - Epoch: 130 Train Prec@1 97.082 Train Loss 0.086 Valid Prec@1 89.310 Valid Loss 0.541 
+
+2021-11-22 05:06:42 - INFO - [131][  0/196] Time 0.783 (0.783) Data 0.66 loss 0.094 (0.094) @1 97.266 (97.266) ETA 0 D 2.9 H
+2021-11-22 05:06:54 - INFO - [131][100/196] Time 0.117 (0.124) Data 0.00 loss 0.159 (0.079) @1 94.531 (97.123) ETA 0 D 0.5 H
+2021-11-22 05:07:07 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:07:07 - INFO - Epoch: 131 Train Prec@1 97.078 Train Loss 0.082 Valid Prec@1 89.770 Valid Loss 0.426 
+
+2021-11-22 05:07:08 - INFO - [132][  0/196] Time 0.780 (0.780) Data 0.64 loss 0.054 (0.054) @1 98.828 (98.828) ETA 0 D 2.9 H
+2021-11-22 05:07:20 - INFO - [132][100/196] Time 0.116 (0.124) Data 0.00 loss 0.103 (0.086) @1 96.094 (96.964) ETA 0 D 0.5 H
+2021-11-22 05:07:33 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:07:33 - INFO - Epoch: 132 Train Prec@1 97.074 Train Loss 0.086 Valid Prec@1 90.090 Valid Loss 0.417 
+
+2021-11-22 05:07:34 - INFO - [133][  0/196] Time 0.768 (0.768) Data 0.64 loss 0.042 (0.042) @1 97.656 (97.656) ETA 0 D 2.8 H
+2021-11-22 05:07:46 - INFO - [133][100/196] Time 0.118 (0.124) Data 0.00 loss 0.038 (0.074) @1 98.438 (97.455) ETA 0 D 0.4 H
+2021-11-22 05:07:59 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:07:59 - INFO - Epoch: 133 Train Prec@1 97.256 Train Loss 0.080 Valid Prec@1 89.600 Valid Loss 0.433 
+
+2021-11-22 05:08:00 - INFO - [134][  0/196] Time 0.770 (0.770) Data 0.64 loss 0.148 (0.148) @1 96.484 (96.484) ETA 0 D 2.8 H
+2021-11-22 05:08:12 - INFO - [134][100/196] Time 0.118 (0.125) Data 0.00 loss 0.073 (0.082) @1 97.266 (97.184) ETA 0 D 0.4 H
+2021-11-22 05:08:25 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:08:25 - INFO - Epoch: 134 Train Prec@1 97.266 Train Loss 0.081 Valid Prec@1 89.430 Valid Loss 0.488 
+
+2021-11-22 05:08:26 - INFO - [135][  0/196] Time 0.798 (0.798) Data 0.67 loss 0.136 (0.136) @1 95.703 (95.703) ETA 0 D 2.8 H
+2021-11-22 05:08:38 - INFO - [135][100/196] Time 0.119 (0.125) Data 0.00 loss 0.081 (0.080) @1 97.266 (97.111) ETA 0 D 0.4 H
+2021-11-22 05:08:52 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:08:52 - INFO - Epoch: 135 Train Prec@1 97.088 Train Loss 0.082 Valid Prec@1 89.580 Valid Loss 0.468 
+
+2021-11-22 05:08:52 - INFO - [136][  0/196] Time 0.822 (0.822) Data 0.70 loss 0.079 (0.079) @1 96.094 (96.094) ETA 0 D 2.9 H
+2021-11-22 05:09:04 - INFO - [136][100/196] Time 0.118 (0.125) Data 0.00 loss 0.104 (0.083) @1 96.875 (97.130) ETA 0 D 0.4 H
+2021-11-22 05:09:18 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:09:18 - INFO - Epoch: 136 Train Prec@1 97.154 Train Loss 0.083 Valid Prec@1 89.590 Valid Loss 0.393 
+
+2021-11-22 05:09:19 - INFO - [137][  0/196] Time 0.784 (0.784) Data 0.66 loss 0.059 (0.059) @1 98.047 (98.047) ETA 0 D 2.7 H
+2021-11-22 05:09:30 - INFO - [137][100/196] Time 0.116 (0.125) Data 0.00 loss 0.107 (0.080) @1 95.312 (97.316) ETA 0 D 0.4 H
+2021-11-22 05:09:44 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:09:44 - INFO - Epoch: 137 Train Prec@1 97.294 Train Loss 0.081 Valid Prec@1 89.890 Valid Loss 0.432 
+
+2021-11-22 05:09:45 - INFO - [138][  0/196] Time 0.684 (0.684) Data 0.56 loss 0.057 (0.057) @1 98.438 (98.438) ETA 0 D 2.3 H
+2021-11-22 05:09:56 - INFO - [138][100/196] Time 0.119 (0.124) Data 0.00 loss 0.081 (0.085) @1 97.266 (97.099) ETA 0 D 0.4 H
+2021-11-22 05:10:10 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:10:10 - INFO - Epoch: 138 Train Prec@1 97.116 Train Loss 0.085 Valid Prec@1 89.740 Valid Loss 0.438 
+
+2021-11-22 05:10:11 - INFO - [139][  0/196] Time 0.804 (0.804) Data 0.68 loss 0.062 (0.062) @1 97.656 (97.656) ETA 0 D 2.7 H
+2021-11-22 05:10:22 - INFO - [139][100/196] Time 0.117 (0.124) Data 0.00 loss 0.063 (0.079) @1 97.266 (97.262) ETA 0 D 0.4 H
+2021-11-22 05:10:36 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:10:36 - INFO - Epoch: 139 Train Prec@1 97.228 Train Loss 0.080 Valid Prec@1 88.960 Valid Loss 0.510 
+
+2021-11-22 05:10:37 - INFO - [140][  0/196] Time 0.793 (0.793) Data 0.67 loss 0.072 (0.072) @1 97.656 (97.656) ETA 0 D 2.6 H
+2021-11-22 05:10:48 - INFO - [140][100/196] Time 0.117 (0.124) Data 0.00 loss 0.036 (0.077) @1 98.828 (97.393) ETA 0 D 0.4 H
+2021-11-22 05:11:02 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:11:02 - INFO - Epoch: 140 Train Prec@1 97.250 Train Loss 0.080 Valid Prec@1 89.530 Valid Loss 0.422 
+
+2021-11-22 05:11:03 - INFO - [141][  0/196] Time 0.785 (0.785) Data 0.66 loss 0.082 (0.082) @1 97.266 (97.266) ETA 0 D 2.5 H
+2021-11-22 05:11:14 - INFO - [141][100/196] Time 0.117 (0.124) Data 0.00 loss 0.064 (0.078) @1 98.047 (97.328) ETA 0 D 0.4 H
+2021-11-22 05:11:28 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:11:28 - INFO - Epoch: 141 Train Prec@1 97.332 Train Loss 0.078 Valid Prec@1 89.220 Valid Loss 0.430 
+
+2021-11-22 05:11:29 - INFO - [142][  0/196] Time 0.805 (0.805) Data 0.68 loss 0.076 (0.076) @1 97.266 (97.266) ETA 0 D 2.5 H
+2021-11-22 05:11:40 - INFO - [142][100/196] Time 0.117 (0.124) Data 0.00 loss 0.103 (0.079) @1 96.875 (97.401) ETA 0 D 0.4 H
+2021-11-22 05:11:54 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:11:54 - INFO - Epoch: 142 Train Prec@1 97.364 Train Loss 0.078 Valid Prec@1 89.950 Valid Loss 0.469 
+
+2021-11-22 05:11:55 - INFO - [143][  0/196] Time 0.801 (0.801) Data 0.68 loss 0.068 (0.068) @1 98.047 (98.047) ETA 0 D 2.5 H
+2021-11-22 05:12:06 - INFO - [143][100/196] Time 0.119 (0.125) Data 0.00 loss 0.080 (0.079) @1 96.484 (97.227) ETA 0 D 0.4 H
+2021-11-22 05:12:20 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:12:20 - INFO - Epoch: 143 Train Prec@1 97.238 Train Loss 0.079 Valid Prec@1 89.770 Valid Loss 0.453 
+
+2021-11-22 05:12:21 - INFO - [144][  0/196] Time 0.819 (0.819) Data 0.69 loss 0.111 (0.111) @1 96.484 (96.484) ETA 0 D 2.5 H
+2021-11-22 05:12:32 - INFO - [144][100/196] Time 0.117 (0.124) Data 0.00 loss 0.076 (0.076) @1 96.875 (97.474) ETA 0 D 0.4 H
+2021-11-22 05:12:46 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:12:46 - INFO - Epoch: 144 Train Prec@1 97.378 Train Loss 0.077 Valid Prec@1 88.910 Valid Loss 0.485 
+
+2021-11-22 05:12:47 - INFO - [145][  0/196] Time 0.818 (0.818) Data 0.69 loss 0.132 (0.132) @1 94.922 (94.922) ETA 0 D 2.4 H
+2021-11-22 05:12:59 - INFO - [145][100/196] Time 0.117 (0.125) Data 0.00 loss 0.098 (0.074) @1 97.266 (97.490) ETA 0 D 0.4 H
+2021-11-22 05:13:12 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:13:12 - INFO - Epoch: 145 Train Prec@1 97.304 Train Loss 0.078 Valid Prec@1 89.580 Valid Loss 0.486 
+
+2021-11-22 05:13:13 - INFO - [146][  0/196] Time 0.845 (0.845) Data 0.71 loss 0.143 (0.143) @1 95.703 (95.703) ETA 0 D 2.5 H
+2021-11-22 05:13:25 - INFO - [146][100/196] Time 0.116 (0.125) Data 0.00 loss 0.099 (0.076) @1 96.094 (97.343) ETA 0 D 0.4 H
+2021-11-22 05:13:38 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:13:38 - INFO - Epoch: 146 Train Prec@1 97.318 Train Loss 0.078 Valid Prec@1 89.350 Valid Loss 0.451 
+
+2021-11-22 05:13:39 - INFO - [147][  0/196] Time 0.811 (0.811) Data 0.69 loss 0.056 (0.056) @1 96.875 (96.875) ETA 0 D 2.3 H
+2021-11-22 05:13:51 - INFO - [147][100/196] Time 0.118 (0.125) Data 0.00 loss 0.084 (0.075) @1 96.484 (97.378) ETA 0 D 0.4 H
+2021-11-22 05:14:04 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:14:04 - INFO - Epoch: 147 Train Prec@1 97.332 Train Loss 0.076 Valid Prec@1 89.950 Valid Loss 0.464 
+
+2021-11-22 05:14:05 - INFO - [148][  0/196] Time 0.861 (0.861) Data 0.73 loss 0.043 (0.043) @1 98.438 (98.438) ETA 0 D 2.4 H
+2021-11-22 05:14:17 - INFO - [148][100/196] Time 0.117 (0.126) Data 0.00 loss 0.096 (0.072) @1 96.484 (97.594) ETA 0 D 0.4 H
+2021-11-22 05:14:31 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:14:31 - INFO - Epoch: 148 Train Prec@1 97.492 Train Loss 0.075 Valid Prec@1 89.520 Valid Loss 0.449 
+
+2021-11-22 05:14:31 - INFO - [149][  0/196] Time 0.820 (0.820) Data 0.69 loss 0.063 (0.063) @1 97.656 (97.656) ETA 0 D 2.3 H
+2021-11-22 05:14:43 - INFO - [149][100/196] Time 0.117 (0.125) Data 0.00 loss 0.067 (0.070) @1 97.656 (97.656) ETA 0 D 0.3 H
+2021-11-22 05:14:57 - INFO - best_prec1: 90.110000 ./results/int-vgg-small-8
+2021-11-22 05:14:57 - INFO - Epoch: 149 Train Prec@1 97.524 Train Loss 0.074 Valid Prec@1 90.080 Valid Loss 0.442 
+
+2021-11-22 05:14:57 - INFO - Change Grad Bitwidth to : 3
+2021-11-22 05:14:58 - INFO - [150][  0/196] Time 0.813 (0.813) Data 0.69 loss 0.050 (0.050) @1 98.438 (98.438) ETA 0 D 2.2 H
+2021-11-22 05:15:09 - INFO - [150][100/196] Time 0.116 (0.124) Data 0.00 loss 0.037 (0.047) @1 99.219 (98.399) ETA 0 D 0.3 H
+2021-11-22 05:15:23 - INFO - best_prec1: 90.440000 ./results/int-vgg-small-8
+2021-11-22 05:15:23 - INFO - Epoch: 150 Train Prec@1 98.558 Train Loss 0.042 Valid Prec@1 90.440 Valid Loss 0.498 
+
+2021-11-22 05:15:24 - INFO - [151][  0/196] Time 0.787 (0.787) Data 0.66 loss 0.043 (0.043) @1 98.047 (98.047) ETA 0 D 2.1 H
+2021-11-22 05:15:35 - INFO - [151][100/196] Time 0.118 (0.124) Data 0.00 loss 0.045 (0.036) @1 98.828 (98.693) ETA 0 D 0.3 H
+2021-11-22 05:15:49 - INFO - best_prec1: 90.960000 ./results/int-vgg-small-8
+2021-11-22 05:15:49 - INFO - Epoch: 151 Train Prec@1 98.754 Train Loss 0.036 Valid Prec@1 90.960 Valid Loss 0.471 
+
+2021-11-22 05:15:50 - INFO - [152][  0/196] Time 0.798 (0.798) Data 0.67 loss 0.062 (0.062) @1 98.047 (98.047) ETA 0 D 2.1 H
+2021-11-22 05:16:01 - INFO - [152][100/196] Time 0.119 (0.124) Data 0.00 loss 0.041 (0.038) @1 97.656 (98.728) ETA 0 D 0.3 H
+2021-11-22 05:16:15 - INFO - best_prec1: 90.960000 ./results/int-vgg-small-8
+2021-11-22 05:16:15 - INFO - Epoch: 152 Train Prec@1 98.748 Train Loss 0.037 Valid Prec@1 90.420 Valid Loss 0.519 
+
+2021-11-22 05:16:16 - INFO - [153][  0/196] Time 0.806 (0.806) Data 0.68 loss 0.043 (0.043) @1 99.219 (99.219) ETA 0 D 2.1 H
+2021-11-22 05:16:28 - INFO - [153][100/196] Time 0.118 (0.125) Data 0.00 loss 0.047 (0.035) @1 97.656 (98.762) ETA 0 D 0.3 H
+2021-11-22 05:16:41 - INFO - best_prec1: 90.960000 ./results/int-vgg-small-8
+2021-11-22 05:16:41 - INFO - Epoch: 153 Train Prec@1 98.752 Train Loss 0.036 Valid Prec@1 90.390 Valid Loss 0.508 
+
+2021-11-22 05:16:42 - INFO - [154][  0/196] Time 0.831 (0.831) Data 0.71 loss 0.095 (0.095) @1 97.266 (97.266) ETA 0 D 2.1 H
+2021-11-22 05:16:54 - INFO - [154][100/196] Time 0.117 (0.124) Data 0.00 loss 0.020 (0.034) @1 99.609 (98.789) ETA 0 D 0.3 H
+2021-11-22 05:17:07 - INFO - best_prec1: 90.960000 ./results/int-vgg-small-8
+2021-11-22 05:17:07 - INFO - Epoch: 154 Train Prec@1 98.832 Train Loss 0.033 Valid Prec@1 90.730 Valid Loss 0.444 
+
+2021-11-22 05:17:08 - INFO - [155][  0/196] Time 0.837 (0.837) Data 0.71 loss 0.016 (0.016) @1 99.609 (99.609) ETA 0 D 2.1 H
+2021-11-22 05:17:20 - INFO - [155][100/196] Time 0.118 (0.125) Data 0.00 loss 0.024 (0.032) @1 98.828 (98.886) ETA 0 D 0.3 H
+2021-11-22 05:17:33 - INFO - best_prec1: 90.960000 ./results/int-vgg-small-8
+2021-11-22 05:17:33 - INFO - Epoch: 155 Train Prec@1 98.846 Train Loss 0.034 Valid Prec@1 90.440 Valid Loss 0.470 
+
+2021-11-22 05:17:34 - INFO - [156][  0/196] Time 0.821 (0.821) Data 0.69 loss 0.029 (0.029) @1 99.219 (99.219) ETA 0 D 2.0 H
+2021-11-22 05:17:46 - INFO - [156][100/196] Time 0.117 (0.124) Data 0.00 loss 0.021 (0.032) @1 99.219 (98.913) ETA 0 D 0.3 H
+2021-11-22 05:17:59 - INFO - best_prec1: 90.960000 ./results/int-vgg-small-8
+2021-11-22 05:17:59 - INFO - Epoch: 156 Train Prec@1 98.902 Train Loss 0.032 Valid Prec@1 90.870 Valid Loss 0.498 
+
+2021-11-22 05:18:00 - INFO - [157][  0/196] Time 0.786 (0.786) Data 0.66 loss 0.043 (0.043) @1 98.828 (98.828) ETA 0 D 1.8 H
+2021-11-22 05:18:12 - INFO - [157][100/196] Time 0.117 (0.124) Data 0.00 loss 0.025 (0.030) @1 99.219 (98.975) ETA 0 D 0.3 H
+2021-11-22 05:18:25 - INFO - best_prec1: 90.960000 ./results/int-vgg-small-8
+2021-11-22 05:18:25 - INFO - Epoch: 157 Train Prec@1 98.896 Train Loss 0.031 Valid Prec@1 90.680 Valid Loss 0.535 
+
+2021-11-22 05:18:26 - INFO - [158][  0/196] Time 0.844 (0.844) Data 0.72 loss 0.011 (0.011) @1 99.609 (99.609) ETA 0 D 1.9 H
+2021-11-22 05:18:38 - INFO - [158][100/196] Time 0.118 (0.125) Data 0.00 loss 0.056 (0.033) @1 98.828 (98.894) ETA 0 D 0.3 H
+2021-11-22 05:18:52 - INFO - best_prec1: 90.960000 ./results/int-vgg-small-8
+2021-11-22 05:18:52 - INFO - Epoch: 158 Train Prec@1 98.894 Train Loss 0.033 Valid Prec@1 90.720 Valid Loss 0.528 
+
+2021-11-22 05:18:52 - INFO - [159][  0/196] Time 0.789 (0.789) Data 0.66 loss 0.030 (0.030) @1 99.219 (99.219) ETA 0 D 1.8 H
+2021-11-22 05:19:04 - INFO - [159][100/196] Time 0.118 (0.123) Data 0.00 loss 0.045 (0.033) @1 97.266 (98.855) ETA 0 D 0.3 H
+2021-11-22 05:19:18 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:19:18 - INFO - Epoch: 159 Train Prec@1 98.904 Train Loss 0.032 Valid Prec@1 91.140 Valid Loss 0.456 
+
+2021-11-22 05:19:18 - INFO - [160][  0/196] Time 0.795 (0.795) Data 0.67 loss 0.018 (0.018) @1 99.219 (99.219) ETA 0 D 1.7 H
+2021-11-22 05:19:30 - INFO - [160][100/196] Time 0.118 (0.124) Data 0.00 loss 0.010 (0.034) @1 100.000 (98.859) ETA 0 D 0.3 H
+2021-11-22 05:19:44 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:19:44 - INFO - Epoch: 160 Train Prec@1 98.862 Train Loss 0.033 Valid Prec@1 90.670 Valid Loss 0.481 
+
+2021-11-22 05:19:44 - INFO - [161][  0/196] Time 0.797 (0.797) Data 0.67 loss 0.039 (0.039) @1 98.047 (98.047) ETA 0 D 1.7 H
+2021-11-22 05:19:56 - INFO - [161][100/196] Time 0.119 (0.125) Data 0.00 loss 0.044 (0.030) @1 98.828 (98.967) ETA 0 D 0.3 H
+2021-11-22 05:20:10 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:20:10 - INFO - Epoch: 161 Train Prec@1 98.958 Train Loss 0.030 Valid Prec@1 90.990 Valid Loss 0.503 
+
+2021-11-22 05:20:11 - INFO - [162][  0/196] Time 0.934 (0.934) Data 0.81 loss 0.032 (0.032) @1 98.438 (98.438) ETA 0 D 1.9 H
+2021-11-22 05:20:22 - INFO - [162][100/196] Time 0.115 (0.126) Data 0.00 loss 0.056 (0.031) @1 98.438 (98.878) ETA 0 D 0.3 H
+2021-11-22 05:20:36 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:20:36 - INFO - Epoch: 162 Train Prec@1 98.886 Train Loss 0.031 Valid Prec@1 90.730 Valid Loss 0.512 
+
+2021-11-22 05:20:37 - INFO - [163][  0/196] Time 0.789 (0.789) Data 0.66 loss 0.036 (0.036) @1 98.828 (98.828) ETA 0 D 1.6 H
+2021-11-22 05:20:48 - INFO - [163][100/196] Time 0.119 (0.125) Data 0.00 loss 0.043 (0.031) @1 98.828 (98.960) ETA 0 D 0.2 H
+2021-11-22 05:21:02 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:21:02 - INFO - Epoch: 163 Train Prec@1 98.960 Train Loss 0.030 Valid Prec@1 90.900 Valid Loss 0.479 
+
+2021-11-22 05:21:03 - INFO - [164][  0/196] Time 0.840 (0.840) Data 0.72 loss 0.034 (0.034) @1 98.828 (98.828) ETA 0 D 1.6 H
+2021-11-22 05:21:15 - INFO - [164][100/196] Time 0.117 (0.125) Data 0.00 loss 0.035 (0.030) @1 98.438 (98.940) ETA 0 D 0.2 H
+2021-11-22 05:21:28 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:21:28 - INFO - Epoch: 164 Train Prec@1 98.946 Train Loss 0.031 Valid Prec@1 91.000 Valid Loss 0.477 
+
+2021-11-22 05:21:29 - INFO - [165][  0/196] Time 0.787 (0.787) Data 0.66 loss 0.022 (0.022) @1 99.219 (99.219) ETA 0 D 1.5 H
+2021-11-22 05:21:41 - INFO - [165][100/196] Time 0.117 (0.125) Data 0.00 loss 0.024 (0.029) @1 99.609 (98.967) ETA 0 D 0.2 H
+2021-11-22 05:21:54 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:21:54 - INFO - Epoch: 165 Train Prec@1 98.980 Train Loss 0.030 Valid Prec@1 90.710 Valid Loss 0.519 
+
+2021-11-22 05:21:55 - INFO - [166][  0/196] Time 0.781 (0.781) Data 0.65 loss 0.008 (0.008) @1 100.000 (100.000) ETA 0 D 1.4 H
+2021-11-22 05:22:07 - INFO - [166][100/196] Time 0.116 (0.125) Data 0.00 loss 0.013 (0.029) @1 99.609 (98.983) ETA 0 D 0.2 H
+2021-11-22 05:22:20 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:22:20 - INFO - Epoch: 166 Train Prec@1 98.978 Train Loss 0.030 Valid Prec@1 90.630 Valid Loss 0.520 
+
+2021-11-22 05:22:21 - INFO - [167][  0/196] Time 0.796 (0.796) Data 0.67 loss 0.072 (0.072) @1 97.266 (97.266) ETA 0 D 1.4 H
+2021-11-22 05:22:33 - INFO - [167][100/196] Time 0.117 (0.124) Data 0.00 loss 0.024 (0.029) @1 99.219 (98.971) ETA 0 D 0.2 H
+2021-11-22 05:22:46 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:22:46 - INFO - Epoch: 167 Train Prec@1 99.036 Train Loss 0.029 Valid Prec@1 90.730 Valid Loss 0.525 
+
+2021-11-22 05:22:47 - INFO - [168][  0/196] Time 0.821 (0.821) Data 0.70 loss 0.018 (0.018) @1 99.609 (99.609) ETA 0 D 1.4 H
+2021-11-22 05:22:59 - INFO - [168][100/196] Time 0.116 (0.124) Data 0.00 loss 0.027 (0.029) @1 99.609 (99.049) ETA 0 D 0.2 H
+2021-11-22 05:23:12 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:23:12 - INFO - Epoch: 168 Train Prec@1 99.026 Train Loss 0.029 Valid Prec@1 90.730 Valid Loss 0.529 
+
+2021-11-22 05:23:14 - INFO - [169][  0/196] Time 1.010 (1.010) Data 0.88 loss 0.093 (0.093) @1 98.047 (98.047) ETA 0 D 1.7 H
+2021-11-22 05:23:25 - INFO - [169][100/196] Time 0.117 (0.126) Data 0.00 loss 0.044 (0.032) @1 98.047 (98.987) ETA 0 D 0.2 H
+2021-11-22 05:23:39 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:23:39 - INFO - Epoch: 169 Train Prec@1 99.006 Train Loss 0.030 Valid Prec@1 90.550 Valid Loss 0.542 
+
+2021-11-22 05:23:39 - INFO - [170][  0/196] Time 0.784 (0.784) Data 0.66 loss 0.011 (0.011) @1 100.000 (100.000) ETA 0 D 1.3 H
+2021-11-22 05:23:51 - INFO - [170][100/196] Time 0.118 (0.125) Data 0.00 loss 0.013 (0.026) @1 99.219 (99.110) ETA 0 D 0.2 H
+2021-11-22 05:24:05 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:24:05 - INFO - Epoch: 170 Train Prec@1 99.066 Train Loss 0.028 Valid Prec@1 90.130 Valid Loss 0.522 
+
+2021-11-22 05:24:06 - INFO - [171][  0/196] Time 0.812 (0.812) Data 0.69 loss 0.009 (0.009) @1 100.000 (100.000) ETA 0 D 1.3 H
+2021-11-22 05:24:17 - INFO - [171][100/196] Time 0.118 (0.125) Data 0.00 loss 0.009 (0.030) @1 100.000 (98.960) ETA 0 D 0.2 H
+2021-11-22 05:24:31 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:24:31 - INFO - Epoch: 171 Train Prec@1 98.988 Train Loss 0.030 Valid Prec@1 90.750 Valid Loss 0.492 
+
+2021-11-22 05:24:32 - INFO - [172][  0/196] Time 0.829 (0.829) Data 0.70 loss 0.011 (0.011) @1 99.219 (99.219) ETA 0 D 1.3 H
+2021-11-22 05:24:43 - INFO - [172][100/196] Time 0.118 (0.125) Data 0.00 loss 0.059 (0.026) @1 98.438 (99.107) ETA 0 D 0.2 H
+2021-11-22 05:24:57 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:24:57 - INFO - Epoch: 172 Train Prec@1 99.124 Train Loss 0.026 Valid Prec@1 90.950 Valid Loss 0.491 
+
+2021-11-22 05:24:58 - INFO - [173][  0/196] Time 0.780 (0.780) Data 0.65 loss 0.014 (0.014) @1 99.609 (99.609) ETA 0 D 1.1 H
+2021-11-22 05:25:09 - INFO - [173][100/196] Time 0.116 (0.124) Data 0.00 loss 0.012 (0.029) @1 99.609 (99.068) ETA 0 D 0.2 H
+2021-11-22 05:25:23 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:25:23 - INFO - Epoch: 173 Train Prec@1 98.996 Train Loss 0.030 Valid Prec@1 91.050 Valid Loss 0.513 
+
+2021-11-22 05:25:24 - INFO - [174][  0/196] Time 0.864 (0.864) Data 0.73 loss 0.008 (0.008) @1 100.000 (100.000) ETA 0 D 1.2 H
+2021-11-22 05:25:36 - INFO - [174][100/196] Time 0.119 (0.125) Data 0.00 loss 0.015 (0.025) @1 99.219 (99.168) ETA 0 D 0.2 H
+2021-11-22 05:25:49 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:25:49 - INFO - Epoch: 174 Train Prec@1 99.090 Train Loss 0.026 Valid Prec@1 90.540 Valid Loss 0.498 
+
+2021-11-22 05:25:50 - INFO - [175][  0/196] Time 0.834 (0.834) Data 0.70 loss 0.020 (0.020) @1 99.219 (99.219) ETA 0 D 1.1 H
+2021-11-22 05:26:02 - INFO - [175][100/196] Time 0.119 (0.125) Data 0.00 loss 0.063 (0.029) @1 97.656 (98.952) ETA 0 D 0.2 H
+2021-11-22 05:26:15 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:26:15 - INFO - Epoch: 175 Train Prec@1 98.996 Train Loss 0.027 Valid Prec@1 90.950 Valid Loss 0.555 
+
+2021-11-22 05:26:16 - INFO - [176][  0/196] Time 0.772 (0.772) Data 0.65 loss 0.010 (0.010) @1 99.609 (99.609) ETA 0 D 1.0 H
+2021-11-22 05:26:28 - INFO - [176][100/196] Time 0.117 (0.124) Data 0.00 loss 0.009 (0.025) @1 99.609 (99.095) ETA 0 D 0.2 H
+2021-11-22 05:26:41 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:26:41 - INFO - Epoch: 176 Train Prec@1 99.070 Train Loss 0.027 Valid Prec@1 90.910 Valid Loss 0.493 
+
+2021-11-22 05:26:42 - INFO - [177][  0/196] Time 0.808 (0.808) Data 0.67 loss 0.024 (0.024) @1 99.219 (99.219) ETA 0 D 1.0 H
+2021-11-22 05:26:54 - INFO - [177][100/196] Time 0.116 (0.124) Data 0.00 loss 0.060 (0.027) @1 98.047 (99.103) ETA 0 D 0.2 H
+2021-11-22 05:27:07 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:27:07 - INFO - Epoch: 177 Train Prec@1 99.118 Train Loss 0.027 Valid Prec@1 91.000 Valid Loss 0.488 
+
+2021-11-22 05:27:08 - INFO - [178][  0/196] Time 0.832 (0.832) Data 0.71 loss 0.016 (0.016) @1 100.000 (100.000) ETA 0 D 1.0 H
+2021-11-22 05:27:20 - INFO - [178][100/196] Time 0.117 (0.125) Data 0.00 loss 0.046 (0.025) @1 98.047 (99.114) ETA 0 D 0.1 H
+2021-11-22 05:27:34 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:27:34 - INFO - Epoch: 178 Train Prec@1 99.086 Train Loss 0.026 Valid Prec@1 90.580 Valid Loss 0.554 
+
+2021-11-22 05:27:34 - INFO - [179][  0/196] Time 0.811 (0.811) Data 0.68 loss 0.035 (0.035) @1 99.609 (99.609) ETA 0 D 0.9 H
+2021-11-22 05:27:46 - INFO - [179][100/196] Time 0.117 (0.124) Data 0.00 loss 0.012 (0.027) @1 100.000 (99.138) ETA 0 D 0.1 H
+2021-11-22 05:27:59 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:27:59 - INFO - Epoch: 179 Train Prec@1 99.048 Train Loss 0.029 Valid Prec@1 90.490 Valid Loss 0.560 
+
+2021-11-22 05:28:00 - INFO - [180][  0/196] Time 0.768 (0.768) Data 0.64 loss 0.006 (0.006) @1 99.609 (99.609) ETA 0 D 0.8 H
+2021-11-22 05:28:12 - INFO - [180][100/196] Time 0.118 (0.124) Data 0.00 loss 0.026 (0.026) @1 98.828 (99.107) ETA 0 D 0.1 H
+2021-11-22 05:28:26 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:28:26 - INFO - Epoch: 180 Train Prec@1 99.104 Train Loss 0.026 Valid Prec@1 90.430 Valid Loss 0.540 
+
+2021-11-22 05:28:26 - INFO - [181][  0/196] Time 0.849 (0.849) Data 0.72 loss 0.013 (0.013) @1 99.219 (99.219) ETA 0 D 0.9 H
+2021-11-22 05:28:38 - INFO - [181][100/196] Time 0.116 (0.125) Data 0.00 loss 0.021 (0.026) @1 98.438 (99.130) ETA 0 D 0.1 H
+2021-11-22 05:28:52 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:28:52 - INFO - Epoch: 181 Train Prec@1 99.112 Train Loss 0.027 Valid Prec@1 90.420 Valid Loss 0.532 
+
+2021-11-22 05:28:53 - INFO - [182][  0/196] Time 0.788 (0.788) Data 0.66 loss 0.009 (0.009) @1 100.000 (100.000) ETA 0 D 0.8 H
+2021-11-22 05:29:04 - INFO - [182][100/196] Time 0.118 (0.124) Data 0.00 loss 0.054 (0.025) @1 98.438 (99.045) ETA 0 D 0.1 H
+2021-11-22 05:29:18 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:29:18 - INFO - Epoch: 182 Train Prec@1 99.066 Train Loss 0.026 Valid Prec@1 90.430 Valid Loss 0.566 
+
+2021-11-22 05:29:19 - INFO - [183][  0/196] Time 0.768 (0.768) Data 0.64 loss 0.018 (0.018) @1 99.219 (99.219) ETA 0 D 0.7 H
+2021-11-22 05:29:30 - INFO - [183][100/196] Time 0.118 (0.124) Data 0.00 loss 0.027 (0.028) @1 99.219 (99.045) ETA 0 D 0.1 H
+2021-11-22 05:29:44 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:29:44 - INFO - Epoch: 183 Train Prec@1 99.010 Train Loss 0.029 Valid Prec@1 90.480 Valid Loss 0.540 
+
+2021-11-22 05:29:45 - INFO - [184][  0/196] Time 0.785 (0.785) Data 0.65 loss 0.013 (0.013) @1 99.609 (99.609) ETA 0 D 0.7 H
+2021-11-22 05:29:56 - INFO - [184][100/196] Time 0.118 (0.124) Data 0.00 loss 0.022 (0.028) @1 99.609 (99.072) ETA 0 D 0.1 H
+2021-11-22 05:30:10 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:30:10 - INFO - Epoch: 184 Train Prec@1 99.036 Train Loss 0.028 Valid Prec@1 90.600 Valid Loss 0.549 
+
+2021-11-22 05:30:11 - INFO - [185][  0/196] Time 0.716 (0.716) Data 0.58 loss 0.045 (0.045) @1 98.047 (98.047) ETA 0 D 0.6 H
+2021-11-22 05:30:22 - INFO - [185][100/196] Time 0.118 (0.123) Data 0.00 loss 0.033 (0.027) @1 98.438 (99.095) ETA 0 D 0.1 H
+2021-11-22 05:30:36 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:30:36 - INFO - Epoch: 185 Train Prec@1 99.096 Train Loss 0.026 Valid Prec@1 90.050 Valid Loss 0.546 
+
+2021-11-22 05:30:37 - INFO - [186][  0/196] Time 0.810 (0.810) Data 0.68 loss 0.048 (0.048) @1 98.047 (98.047) ETA 0 D 0.6 H
+2021-11-22 05:30:48 - INFO - [186][100/196] Time 0.117 (0.124) Data 0.00 loss 0.031 (0.028) @1 99.609 (99.056) ETA 0 D 0.1 H
+2021-11-22 05:31:02 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:31:02 - INFO - Epoch: 186 Train Prec@1 99.044 Train Loss 0.028 Valid Prec@1 90.840 Valid Loss 0.544 
+
+2021-11-22 05:31:02 - INFO - [187][  0/196] Time 0.780 (0.780) Data 0.65 loss 0.050 (0.050) @1 98.047 (98.047) ETA 0 D 0.6 H
+2021-11-22 05:31:14 - INFO - [187][100/196] Time 0.119 (0.125) Data 0.00 loss 0.044 (0.025) @1 98.828 (99.188) ETA 0 D 0.1 H
+2021-11-22 05:31:28 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:31:28 - INFO - Epoch: 187 Train Prec@1 99.090 Train Loss 0.028 Valid Prec@1 90.770 Valid Loss 0.529 
+
+2021-11-22 05:31:29 - INFO - [188][  0/196] Time 0.780 (0.780) Data 0.65 loss 0.023 (0.023) @1 99.609 (99.609) ETA 0 D 0.5 H
+2021-11-22 05:31:40 - INFO - [188][100/196] Time 0.116 (0.124) Data 0.00 loss 0.091 (0.026) @1 97.656 (99.087) ETA 0 D 0.1 H
+2021-11-22 05:31:54 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:31:54 - INFO - Epoch: 188 Train Prec@1 99.080 Train Loss 0.026 Valid Prec@1 90.750 Valid Loss 0.560 
+
+2021-11-22 05:31:55 - INFO - [189][  0/196] Time 0.808 (0.808) Data 0.68 loss 0.029 (0.029) @1 99.219 (99.219) ETA 0 D 0.5 H
+2021-11-22 05:32:06 - INFO - [189][100/196] Time 0.117 (0.125) Data 0.00 loss 0.037 (0.026) @1 98.828 (99.095) ETA 0 D 0.1 H
+2021-11-22 05:32:20 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:32:20 - INFO - Epoch: 189 Train Prec@1 99.114 Train Loss 0.026 Valid Prec@1 90.670 Valid Loss 0.518 
+
+2021-11-22 05:32:21 - INFO - [190][  0/196] Time 0.839 (0.839) Data 0.71 loss 0.023 (0.023) @1 99.219 (99.219) ETA 0 D 0.5 H
+2021-11-22 05:32:33 - INFO - [190][100/196] Time 0.116 (0.125) Data 0.00 loss 0.057 (0.026) @1 98.438 (99.118) ETA 0 D 0.1 H
+2021-11-22 05:32:46 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:32:46 - INFO - Epoch: 190 Train Prec@1 99.078 Train Loss 0.027 Valid Prec@1 90.350 Valid Loss 0.549 
+
+2021-11-22 05:32:47 - INFO - [191][  0/196] Time 0.751 (0.751) Data 0.63 loss 0.018 (0.018) @1 99.609 (99.609) ETA 0 D 0.4 H
+2021-11-22 05:32:59 - INFO - [191][100/196] Time 0.116 (0.124) Data 0.00 loss 0.023 (0.026) @1 98.828 (99.110) ETA 0 D 0.1 H
+2021-11-22 05:33:12 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:33:12 - INFO - Epoch: 191 Train Prec@1 99.078 Train Loss 0.026 Valid Prec@1 90.310 Valid Loss 0.559 
+
+2021-11-22 05:33:13 - INFO - [192][  0/196] Time 0.797 (0.797) Data 0.67 loss 0.041 (0.041) @1 97.656 (97.656) ETA 0 D 0.3 H
+2021-11-22 05:33:25 - INFO - [192][100/196] Time 0.118 (0.125) Data 0.00 loss 0.032 (0.026) @1 98.438 (99.064) ETA 0 D 0.1 H
+2021-11-22 05:33:38 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:33:38 - INFO - Epoch: 192 Train Prec@1 99.084 Train Loss 0.026 Valid Prec@1 90.370 Valid Loss 0.609 
+
+2021-11-22 05:33:39 - INFO - [193][  0/196] Time 0.817 (0.817) Data 0.69 loss 0.037 (0.037) @1 99.219 (99.219) ETA 0 D 0.3 H
+2021-11-22 05:33:51 - INFO - [193][100/196] Time 0.117 (0.124) Data 0.00 loss 0.046 (0.026) @1 98.828 (99.114) ETA 0 D 0.0 H
+2021-11-22 05:34:04 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:34:04 - INFO - Epoch: 193 Train Prec@1 99.114 Train Loss 0.026 Valid Prec@1 90.850 Valid Loss 0.542 
+
+2021-11-22 05:34:05 - INFO - [194][  0/196] Time 0.781 (0.781) Data 0.64 loss 0.034 (0.034) @1 98.828 (98.828) ETA 0 D 0.3 H
+2021-11-22 05:34:17 - INFO - [194][100/196] Time 0.117 (0.124) Data 0.00 loss 0.011 (0.028) @1 99.219 (99.068) ETA 0 D 0.0 H
+2021-11-22 05:34:30 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:34:30 - INFO - Epoch: 194 Train Prec@1 99.056 Train Loss 0.028 Valid Prec@1 90.700 Valid Loss 0.521 
+
+2021-11-22 05:34:31 - INFO - [195][  0/196] Time 0.770 (0.770) Data 0.65 loss 0.013 (0.013) @1 99.609 (99.609) ETA 0 D 0.2 H
+2021-11-22 05:34:43 - INFO - [195][100/196] Time 0.117 (0.124) Data 0.00 loss 0.038 (0.025) @1 98.828 (99.122) ETA 0 D 0.0 H
+2021-11-22 05:34:56 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:34:56 - INFO - Epoch: 195 Train Prec@1 99.086 Train Loss 0.027 Valid Prec@1 90.890 Valid Loss 0.522 
+
+2021-11-22 05:34:57 - INFO - [196][  0/196] Time 0.836 (0.836) Data 0.71 loss 0.010 (0.010) @1 99.609 (99.609) ETA 0 D 0.2 H
+2021-11-22 05:35:09 - INFO - [196][100/196] Time 0.115 (0.125) Data 0.00 loss 0.008 (0.027) @1 99.609 (99.064) ETA 0 D 0.0 H
+2021-11-22 05:35:22 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:35:22 - INFO - Epoch: 196 Train Prec@1 99.106 Train Loss 0.026 Valid Prec@1 90.710 Valid Loss 0.515 
+
+2021-11-22 05:35:23 - INFO - [197][  0/196] Time 0.794 (0.794) Data 0.67 loss 0.025 (0.025) @1 98.828 (98.828) ETA 0 D 0.1 H
+2021-11-22 05:35:35 - INFO - [197][100/196] Time 0.118 (0.124) Data 0.00 loss 0.032 (0.026) @1 98.828 (99.161) ETA 0 D 0.0 H
+2021-11-22 05:35:48 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:35:48 - INFO - Epoch: 197 Train Prec@1 99.116 Train Loss 0.028 Valid Prec@1 90.790 Valid Loss 0.492 
+
+2021-11-22 05:35:49 - INFO - [198][  0/196] Time 0.807 (0.807) Data 0.68 loss 0.019 (0.019) @1 99.219 (99.219) ETA 0 D 0.1 H
+2021-11-22 05:36:01 - INFO - [198][100/196] Time 0.117 (0.125) Data 0.00 loss 0.014 (0.028) @1 99.609 (98.994) ETA 0 D 0.0 H
+2021-11-22 05:36:15 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:36:15 - INFO - Epoch: 198 Train Prec@1 99.012 Train Loss 0.028 Valid Prec@1 90.810 Valid Loss 0.569 
+
+2021-11-22 05:36:15 - INFO - [199][  0/196] Time 0.785 (0.785) Data 0.66 loss 0.024 (0.024) @1 98.438 (98.438) ETA 0 D 0.0 H
+2021-11-22 05:36:27 - INFO - [199][100/196] Time 0.116 (0.124) Data 0.00 loss 0.040 (0.025) @1 98.828 (99.184) ETA 0 D 0.0 H
+2021-11-22 05:36:40 - INFO - best_prec1: 91.140000 ./results/int-vgg-small-8
+2021-11-22 05:36:40 - INFO - Epoch: 199 Train Prec@1 99.126 Train Loss 0.026 Valid Prec@1 90.910 Valid Loss 0.485 
+

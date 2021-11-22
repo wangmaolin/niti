@@ -1,6 +1,5 @@
 import torch
 
-
 class AverageMeter(object):
     """Computes and stores the average and current value"""
 
@@ -18,7 +17,6 @@ class AverageMeter(object):
         self.sum += val * n
         self.count += n
         self.avg = self.sum / self.count
-
 
 class OnlineMeter(object):
     """Computes and stores the average and variance/std values of tensor"""
@@ -55,7 +53,6 @@ class OnlineMeter(object):
     def std(self):
         return self.var().sqrt()
 
-
 def accuracy(output, target, topk=(1,)):
     """Computes the precision@k for the specified values of k"""
     maxk = max(topk)
@@ -67,7 +64,8 @@ def accuracy(output, target, topk=(1,)):
 
     res = []
     for k in topk:
-        correct_k = correct[:k].view(-1).float().sum(0)
+        # correct_k = correct[:k].view(-1).float().sum(0)
+        correct_k = correct[:k].contiguous().view(-1).float().sum(0)
         res.append(correct_k.mul_(100.0 / batch_size))
     return res
 

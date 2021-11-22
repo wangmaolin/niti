@@ -3,7 +3,6 @@ import os
 from itertools import cycle
 import torch
 import logging.config
-from datetime import datetime
 import json
 
 import pandas as pd
