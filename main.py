@@ -10,6 +10,7 @@ import ti_torch
 import shutil
 from data import gen_loaders
 from ti_vgg import TiVGG_cifar
+from ti_Mobilenet import TiMobileNetV1_cifar
 from torch.utils.tensorboard import SummaryWriter
 from options import args
 
@@ -53,7 +54,9 @@ def main():
 
     # Create Network
     logging.info('Create integer model')
-    model = TiVGG_cifar(depth = args.depth)
+    #model = TiVGG_cifar(depth = args.depth)
+    model = TiMobileNetV1_cifar()
+    model = model.cuda()
 
     regime = model.regime
     logging.info('training regime: %s', regime)
